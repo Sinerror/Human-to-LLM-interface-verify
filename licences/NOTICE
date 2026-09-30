@@ -1,0 +1,22 @@
+NOTICE
+
+This distribution contains files derived from third-party language models:
+activation vectors recorded while running the models, and atlases holding int8
+projections of their unembedding matrices. These files were created by the
+author from the models; they are modified derivatives, not files distributed by
+Google or Meta.
+
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
+
+Files derived from Gemma (gemma-3-1b-it, gemma-3-1b-pt, gemma-2-9b) are subject
+to the use restrictions of Section 3.2 of the Gemma Terms of Use, including the
+Gemma Prohibited Use Policy at ai.google.dev/gemma/prohibited_use_policy.
+
+Built with Meta Llama 3.
+Meta Llama 3 is licensed under the Meta Llama 3 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
+
+Files derived from Meta Llama 3 (Meta-Llama-3-8B) are subject to the Meta Llama 3
+Community License and its Acceptable Use Policy.
+
+Copies of these licences, and of the licences of the other models, are in this
+licences/ folder.

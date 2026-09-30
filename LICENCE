@@ -25,7 +25,7 @@ SOFTWARE.
 DATA
 
 Files under data/ are released under Creative Commons Attribution-ShareAlike
-4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/.
+4.0 International (CC BY-SA 4.0), https://creativecommons.org/licences/by-sa/4.0/.
 
 Why share-alike rather than CC BY. Sense glosses in the corpus derive in part
 from Wiktionary, whose text is dual-licensed CC BY-SA 4.0 and GFDL; share-alike
@@ -45,11 +45,49 @@ permissive and compatible with CC BY-SA, and requires this notice:
   reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON
   UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.
 
-Generated text. Files under data/generations/ and data/generations_single/ are
-model output produced under activation steering, included so the analysis can
-be reproduced. Some are degenerate, and some are emotionally charged by
-construction. They are research artifacts, not endorsed content.
+Generated text. Files under data/generations/ are model output produced under
+activation steering, included so the analysis can be reproduced. Some are
+degenerate, and some are emotionally charged by construction. They are research
+artifacts, not endorsed content.
 
 Model weights are not redistributed; models are referenced by Hugging Face
 identifier. The NRC VAD Lexicon is not redistributed and no comparison against it
 is included.
+
+--------------------------------------------------------------------------
+
+MODEL-DERIVED DATA
+
+Model weights are not redistributed; models are referenced by Hugging Face
+identifier. Some released files are nevertheless derived from the models:
+
+  generated text      model output. The Gemma Terms of Use state that Outputs
+                      are not Model Derivatives.
+  activation vectors  hidden states recorded while running each model
+  atlases             int8 projections of each model's unembedding matrix
+
+We do not relicense model-derived content. The numerical content of the vectors
+and atlases is distributed subject to the licence of the model it derives from;
+the CC BY-SA 4.0 licence above covers what we contribute to those files (sense
+keys, glosses, word lists and their arrangement). As stated on each model card
+at the time of writing:
+
+  google/gemma-3-1b-it, google/gemma-3-1b-pt,
+  unsloth/gemma-2-9b-bnb-4bit            Gemma Terms of Use
+  meta-llama/Meta-Llama-3-8B             Meta Llama 3 Community License
+  Qwen/Qwen2.5-1.5B                      Apache License 2.0
+  mistralai/Mistral-7B-v0.3              Apache License 2.0
+  EleutherAI/pythia-6.9b                 Apache License 2.0
+  state-spaces/mamba-2.8b-hf             Apache License 2.0
+  microsoft/phi-2                        MIT License
+
+Gemma-derived files are provided subject to the Gemma Terms of Use. The use
+restrictions of its Section 3.2, including the Gemma Prohibited Use Policy
+(ai.google.dev/gemma/prohibited_use_policy), apply to any use of those files and
+are an enforceable condition of this licence for them.
+
+Llama-derived files are provided subject to the Meta Llama 3 Community License
+and its Acceptable Use Policy. Built with Meta Llama 3.
+
+The required notices are in licences/NOTICE, and copies of every model
+licence are in the licences/ folder. This section is informational and not legal advice.
