@@ -4,30 +4,40 @@ Every number in the paper, recomputed from the shipped data and printed beside
 what the paper says.
 
 ```
+# Linux and Windows: install the CPU build of torch first,
+# so pip does not pull several GB of CUDA libraries
+pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
+
 python verify.py            # everything except the second encoder
 python verify.py --full     # also the second encoder
 ```
 
-No GPU. The default run takes roughly 15–30 minutes on a laptop, almost all of
+On macOS the plain `pip install -r requirements.txt` is already CPU-only.
+
+**With an NVIDIA GPU**, install the CUDA build of torch for your driver instead of
+the CPU line (see pytorch.org); verify then uses the GPU automatically and the
+whole run takes a few minutes. It adds a few GB of CUDA libraries, which is why
+CPU is the default. Numbers agree within every tolerance either way.
+
+No GPU is needed. The default run takes roughly 15–30 minutes on a laptop, almost all of
 it embedding about 150,000 generations once; `--full` re-embeds the steering
 generations with a larger encoder and adds roughly 20–60 minutes. With
-`--cache DIR` the embeddings are kept, and a rerun takes a few minutes. The
-only downloads are the sentence encoders, fetched once by
-`sentence-transformers`.
+`--cache DIR` the embeddings are kept, and a rerun takes a few minutes. The only
+downloads are the sentence encoders, fetched once by `sentence-transformers`.
+Tested in a clean container: every check passes.
 
 ## What you get
 
 ```
-  CLAIM                                            PAPER   RECOMPUTED     TOL   STATUS
-  Gram mean |cos|                                  0.187        0.187   0.005   PASS
-  Gram condition number                            5.489        5.489     0.1   PASS
-  word-contrast null p95                           0.851        0.851    0.02   PASS
-  model-level mean gain                            0.405        0.405    0.02   PASS
-  diagonal is row max (ROWS = CONSTRUCT), mean     0.857        0.857   0.015   PASS
-    symmetric off-diag change                     -0.236       -0.236    0.02   PASS
-  pooled dual gain x, one dial at a time           1.290        1.290   0.005   PASS
-  pooled dual gain x, three at once, observed      1.050        1.054   0.005   PASS
+CLAIM                                            PAPER   RECOMPUTED     TOL   STATUS
+Gram mean |cos|                                  0.187        0.187   0.005   PASS
+Gram condition number                            5.489        5.489     0.1   PASS
+word-contrast null p95                           0.851        0.851    0.02   PASS
+model-level mean gain                            0.405        0.405    0.02   PASS
+diagonal is row max (ROWS = CONSTRUCT), mean     0.857        0.857   0.015   PASS
+  symmetric off-diag change                     -0.236       -0.236    0.02   PASS
+diag-is-max at one common magnitude, mean        0.540        0.540   0.002   PASS
 ```
 
 The negative results are checked with the same tolerances as the positive ones:
@@ -51,6 +61,7 @@ would not be worth running.
 | `steering`, `robustness`, `crossboot` | gains over matched controls; raw, deduplicated and coherent text; the cross-alignment bootstrap | generations |
 | `control`, `magnitude`, `spread` | transfer matrices per repetition and pooled; how far text moves | generations |
 | `superposition` | single dials predicting three; the dual basis one at a time and three at once | both generation sets |
+| `commonmag` | the same simultaneous-control experiment at one common magnitude, c = 0.08: 54% against 86% | `common_magnitude_transfer.json` |
 | `encoder2` (`--full`) | the steering measurement repeated with bge-large-en-v1.5 | generations |
 
 ## Two row conventions
@@ -81,10 +92,11 @@ everything computed from the shipped vectors, generations and atlas.
 
 **Not verified.** The extraction that produced the vectors and the generation
 that produced the texts; both need model weights and a GPU. The coherence edges
-are checked against their recorded ladders rather than recomputed. The figure
-of 54% at a single common magnitude (sections 3.5 and 7.2) comes from a run
-this package does not ship. **This package verifies the analysis, not the
-experiment.** The reproduction archive covers the rest.
+are checked against their recorded ladders rather than recomputed. The 54% at a
+single common magnitude (sections 3.5 and 7.2) is checked from that run's stored
+transfer matrices; its generations are in the reproduction archive, not here.
+**This package verifies the analysis, not the experiment.** The reproduction
+archive covers the rest.
 
 ## What is in `data/`
 
@@ -94,6 +106,7 @@ experiment.** The reproduction archive covers the rest.
 | `heldout_vectors/` | the pre-registered unseen words, extracted separately so neither the fit nor the axes have met them |
 | `generations/` | the three-dial experiment: 90,720 steered texts in raw, dual and matched-control arms, gzipped |
 | `generations_single/` | the single-dial experiment of section 7.3: the same trials and stems, one dial turned per cell, raw and dual arms, gzipped. Same file names and trial ids as `generations/`, hence its own folder |
+| `common_magnitude_transfer.json` | the archived run at one common magnitude (c = 0.08 for every model): its fitted per-repetition transfer matrices |
 | `atlas_g31bit.json.gz` | the Gemma-3-1B-it atlas the interface displays: the Gram matrix, token coordinates (int8) and named-emotion positions |
 | `edges.json` | the nine coherence ladders and the c\* each yields |
 | `layer_selection.csv` | per-layer held-out AUC. Single-layer vectors make the layer choice unrecomputable, so the table that made the choice ships instead |
