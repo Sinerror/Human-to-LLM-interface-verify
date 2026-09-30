@@ -1,0 +1,796 @@
+key,word,sense,heuristic,score,final
+agape::with the mouth wide open as in wonder or awe,agape,with the mouth wide open as in wonder or awe,EMO,+2.0,
+nervous::excited in anticipation,nervous,excited in anticipation,EMO,+2.0,
+fun::activities that are enjoyable or amusing,fun,activities that are enjoyable or amusing,UNCERTAIN,+0.0,NONEMO
+agape::the love of God or Christ for mankind,agape,the love of God or Christ for mankind,UNCERTAIN,+1.0,EMO
+agape::selfless love of one person for another without sexual implications,agape,selfless love of one person for another without sexual implications,UNCERTAIN,+1.0,EMO
+agape::a religious meal shared as a sign of love and fellowship,agape,a religious meal shared as a sign of love and fellowship,UNCERTAIN,+1.0,NONEMO
+urge::a continuing impulse toward an activity or goal : a strong need or desire to do or have something,urge,a continuing impulse toward an activity or goal : a strong need or desire to do or have something,UNCERTAIN,+1.0,EMO
+agony::a state of acute pain,agony,a state of acute pain,UNCERTAIN,+0.0,EMO
+loyalty::the quality of being loyal,loyalty,the quality of being loyal,UNCERTAIN,+0.0,NONEMO
+afraid::filled with fear or apprehension,afraid,filled with fear or apprehension,EMO,+4.0,
+dignity::the quality of being worthy of esteem or respect,dignity,the quality of being worthy of esteem or respect,UNCERTAIN,+0.0,NONEMO
+fun::a disposition to find (or make) causes for amusement,fun,a disposition to find (or make) causes for amusement,EMO,+3.0,
+intimacy::close or warm friendship,intimacy,close or warm friendship,UNCERTAIN,+0.0,EMO
+joyful::full of high-spirited delight,joyful,full of high-spirited delight,EMO,+2.0,
+defeat::the feeling that accompanies an experience of being thwarted in attaining your goals,defeat,the feeling that accompanies an experience of being thwarted in attaining your goals,EMO,+5.0,
+loyalty::the act of binding yourself (intellectually or emotionally) to a course of action,loyalty,the act of binding yourself (intellectually or emotionally) to a course of action,UNCERTAIN,+0.0,NONEMO
+mercy::leniency and compassion shown toward offenders by a person or agency charged with administering justice,mercy,leniency and compassion shown toward offenders by a person or agency charged with administering justice,EMO,+2.0,
+humor::a characteristic state of feeling,humor,a characteristic state of feeling,EMO,+2.0,
+hope::a specific instance of feeling hopeful,hope,a specific instance of feeling hopeful,EMO,+4.0,
+hope::the general feeling that some desire will be fulfilled,hope,the general feeling that some desire will be fulfilled,EMO,+6.0,
+love::any object of warm affection or devotion,love,any object of warm affection or devotion,EMO,+4.0,
+mad::very foolish,mad,very foolish,UNCERTAIN,+0.0,NONEMO
+numb::so frightened as to be unable to move; stunned or paralyzed with terror; petrified,numb,so frightened as to be unable to move; stunned or paralyzed with terror; petrified,EMO,+2.0,
+sex::activities associated with sexual intercourse,sex,activities associated with sexual intercourse,UNCERTAIN,+0.0,NONEMO
+shame::a state of dishonor,shame,a state of dishonor,UNCERTAIN,+0.0,NONEMO
+calm::not agitated; without losing self-possession,calm,not agitated; without losing self-possession,EMO,+2.0,
+contempt::a willful disobedience to or disrespect for the authority of a court or legislative body,contempt,a willful disobedience to or disrespect for the authority of a court or legislative body,UNCERTAIN,+0.0,NONEMO
+exuberant::joyously unrestrained,exuberant,joyously unrestrained,UNCERTAIN,+0.0,EMO
+fun::verbal wit or mockery (often at another's expense but not to be taken seriously),fun,verbal wit or mockery (often at another's expense but not to be taken seriously),NONEMO,-2.0,
+gladsome::experiencing or expressing gladness or joy,gladsome,experiencing or expressing gladness or joy,EMO,+2.0,
+glad::feeling happy appreciation,glad,feeling happy appreciation,EMO,+2.0,
+glad::cheerful and bright,glad,cheerful and bright,EMO,+2.0,
+heart::the courage to carry on,heart,the courage to carry on,UNCERTAIN,+0.0,EMO
+lust::self-indulgent sexual desire (personified as one of the deadly sins),lust,self-indulgent sexual desire (personified as one of the deadly sins),UNCERTAIN,+1.0,EMO
+modest::low or inferior in station or quality,modest,low or inferior in station or quality,UNCERTAIN,+0.0,NONEMO
+passion::a feeling of strong sexual desire,passion,a feeling of strong sexual desire,EMO,+9.0,
+passion::any object of warm affection or devotion,passion,any object of warm affection or devotion,EMO,+4.0,
+rejoicing::joyful and proud especially because of triumph or success,rejoicing,joyful and proud especially because of triumph or success,EMO,+2.0,
+felicity::state of well-being characterized by emotions ranging from contentment to intense joy,felicity,state of well-being characterized by emotions ranging from contentment to intense joy,EMO,+8.0,
+pleasure::sexual gratification,pleasure,sexual gratification,UNCERTAIN,+0.0,EMO
+woe::misery resulting from affliction,woe,misery resulting from affliction,EMO,+2.0,
+spite::malevolence by virtue of being malicious or spiteful or nasty,spite,malevolence by virtue of being malicious or spiteful or nasty,EMO,+2.0,
+shame::a painful emotion resulting from an awareness of inadequacy or guilt,shame,a painful emotion resulting from an awareness of inadequacy or guilt,EMO,+5.0,
+contempt::open disrespect for a person or thing,contempt,open disrespect for a person or thing,UNCERTAIN,+0.0,EMO
+dignity::high office or rank or station,dignity,high office or rank or station,UNCERTAIN,+0.0,NONEMO
+ego::your consciousness of your own identity,ego,your consciousness of your own identity,UNCERTAIN,+0.0,NONEMO
+fire::feelings of great warmth and intensity,fire,feelings of great warmth and intensity,EMO,+5.0,
+hurt::psychological suffering,hurt,psychological suffering,UNCERTAIN,+0.0,EMO
+irate::feeling or showing extreme anger,irate,feeling or showing extreme anger,EMO,+7.0,
+joyful::full of or producing joy,joyful,full of or producing joy,EMO,+2.0,
+love::a deep feeling of sexual desire and attraction,love,a deep feeling of sexual desire and attraction,EMO,+6.0,
+madness::the quality of being rash and foolish,madness,the quality of being rash and foolish,UNCERTAIN,+0.0,NONEMO
+passion::something that is desired intensely,passion,something that is desired intensely,UNCERTAIN,+0.0,NONEMO
+enthusiasm::overflowing with eager enjoyment or approval,enthusiasm,overflowing with eager enjoyment or approval,EMO,+2.0,
+panic::an overwhelming feeling of fear and anxiety,panic,an overwhelming feeling of fear and anxiety,EMO,+9.0,
+surprise::of something unexpected cause someone to feel mild astonishment or shock,surprise,of something unexpected cause someone to feel mild astonishment or shock,EMO,+2.0,
+spite::feeling a need to see others suffer,spite,feeling a need to see others suffer,EMO,+2.0,
+shame::an unfortunate development,shame,an unfortunate development,UNCERTAIN,+0.0,NONEMO
+afraid::feeling worry or concern or insecurity,afraid,feeling worry or concern or insecurity,EMO,+6.0,
+antagonism::the relation between opposing principles or forces or factors,antagonism,the relation between opposing principles or forces or factors,UNCERTAIN,+0.0,NONEMO
+gay::given to social pleasures often including dissipation,gay,given to social pleasures often including dissipation,UNCERTAIN,+0.0,EMO
+gloomy::causing dejection,gloomy,causing dejection,EMO,+2.0,
+heat::the sensation caused by heat energy,heat,the sensation caused by heat energy,UNCERTAIN,+0.0,NONEMO
+heat::the trait of being intensely emotional,heat,the trait of being intensely emotional,EMO,+3.0,
+heart::an inclination or tendency of a certain kind,heart,an inclination or tendency of a certain kind,UNCERTAIN,+0.0,NONEMO
+joy::something or someone that provides a source of happiness,joy,something or someone that provides a source of happiness,EMO,+2.0,
+love::a beloved person; used as terms of endearment,love,a beloved person; used as terms of endearment,NONEMO,-2.0,
+lust::a strong sexual desire,lust,a strong sexual desire,UNCERTAIN,+1.0,EMO
+madness::a feeling of intense anger,madness,a feeling of intense anger,EMO,+10.0,
+modest::not large but sufficient in size or amount,modest,not large but sufficient in size or amount,UNCERTAIN,+0.0,NONEMO
+passion::the trait of being intensely emotional,passion,the trait of being intensely emotional,EMO,+3.0,
+passion::an irrational but irresistible motive for a belief or action,passion,an irrational but irresistible motive for a belief or action,UNCERTAIN,+0.0,EMO
+qualm::a mild state of nausea,qualm,a mild state of nausea,UNCERTAIN,+0.0,NONEMO
+quiver::case for holding arrows,quiver,case for holding arrows,UNCERTAIN,+0.0,NONEMO
+red-hot::glowing red with heat,red-hot,glowing red with heat,UNCERTAIN,+0.0,NONEMO
+relief::the condition of being comfortable or relieved (especially after being relieved of distress),relief,the condition of being comfortable or relieved (especially after being relieved of distress),EMO,+4.0,
+respect::an attitude of admiration or esteem,respect,an attitude of admiration or esteem,EMO,+2.0,
+agony::intense feelings of suffering; acute mental or physical pain,agony,intense feelings of suffering; acute mental or physical pain,UNCERTAIN,+1.0,EMO
+enmity::a state of deep-seated ill-will,enmity,a state of deep-seated ill-will,UNCERTAIN,+0.0,EMO
+sex::the properties that distinguish organisms on the basis of their reproductive roles,sex,the properties that distinguish organisms on the basis of their reproductive roles,NONEMO,-9.0,
+woe::intense mournfulness,woe,intense mournfulness,UNCERTAIN,+0.0,EMO
+surrender::a verbal act of admitting defeat,surrender,a verbal act of admitting defeat,UNCERTAIN,+0.0,NONEMO
+trust::a trustful relationship,trust,a trustful relationship,UNCERTAIN,+0.0,NONEMO
+self-distrust::lack of self-confidence,self-distrust,lack of self-confidence,EMO,+2.0,
+reassurance::state of confidence restoring,reassurance,state of confidence restoring,EMO,+2.0,
+affectionate::having or displaying warmth or affection,affectionate,having or displaying warmth or affection,EMO,+4.0,
+anger::the state of being angry,anger,the state of being angry,EMO,+3.0,
+antagonism::a state of deep-seated ill-will,antagonism,a state of deep-seated ill-will,UNCERTAIN,+0.0,EMO
+annoyance::an unpleasant person who is annoying or exasperating,annoyance,an unpleasant person who is annoying or exasperating,UNCERTAIN,+0.0,NONEMO
+annoyance::the act of troubling or annoying someone,annoyance,the act of troubling or annoying someone,NONEMO,-2.0,
+disapproval::a feeling of disliking something or what someone is doing,disapproval,a feeling of disliking something or what someone is doing,EMO,+8.0,
+esteem::the condition of being honored (esteemed or respected or well regarded),esteem,the condition of being honored (esteemed or respected or well regarded),UNCERTAIN,+0.0,NONEMO
+frightful::extreme in degree or extent or amount or impact,frightful,extreme in degree or extent or amount or impact,UNCERTAIN,+0.0,NONEMO
+gay::offering fun and gaiety,gay,offering fun and gaiety,UNCERTAIN,+0.0,EMO
+grievance::a complaint about a (real or imaginary) wrong that causes resentment and is grounds for action,grievance,a complaint about a (real or imaginary) wrong that causes resentment and is grounds for action,EMO,+2.0,
+heart::the locus of feelings and intuitions,heart,the locus of feelings and intuitions,UNCERTAIN,+0.0,EMO
+hope::grounds for feeling hopeful about the future,hope,grounds for feeling hopeful about the future,EMO,+4.0,
+hurt::suffering from physical injury especially that suffered in battle,hurt,suffering from physical injury especially that suffered in battle,UNCERTAIN,+0.0,NONEMO
+intimacy::a feeling of being intimate and belonging together,intimacy,a feeling of being intimate and belonging together,EMO,+8.0,
+joy::the emotion of great happiness,joy,the emotion of great happiness,EMO,+5.0,
+mad::affected with madness or insanity,mad,affected with madness or insanity,UNCERTAIN,+0.0,NONEMO
+numb::lacking sensation,numb,lacking sensation,UNCERTAIN,+0.0,NONEMO
+red-hot::newest or most recent,red-hot,newest or most recent,UNCERTAIN,+0.0,NONEMO
+red-hot::very fast; capable of quick response and great speed,red-hot,very fast; capable of quick response and great speed,NONEMO,-3.0,
+relief::a pause for relaxation,relief,a pause for relaxation,UNCERTAIN,+0.0,NONEMO
+respect::a courteous expression (by word or deed) of esteem or regard,respect,a courteous expression (by word or deed) of esteem or regard,UNCERTAIN,+0.0,NONEMO
+closeness::close or warm friendship,closeness,close or warm friendship,UNCERTAIN,+0.0,EMO
+pleasure::a formal expression,pleasure,a formal expression,UNCERTAIN,+0.0,NONEMO
+wrath::extreme anger,wrath,extreme anger,EMO,+2.0,
+sex::all of the feelings resulting from the urge to gratify sexual impulses,sex,all of the feelings resulting from the urge to gratify sexual impulses,EMO,+3.0,
+sex::either of the two categories (male or female) into which most organisms are divided,sex,either of the two categories (male or female) into which most organisms are divided,NONEMO,-5.0,
+torment::extreme mental distress,torment,extreme mental distress,EMO,+4.0,
+surrender::the delivery of a principal into lawful custody,surrender,the delivery of a principal into lawful custody,UNCERTAIN,+0.0,NONEMO
+suspense::apprehension about what is going to happen,suspense,apprehension about what is going to happen,EMO,+2.0,
+trust::complete confidence in a person or plan etc,trust,complete confidence in a person or plan etc,EMO,+2.0,
+sheepishness::feeling embarrassed about yourself,sheepishness,feeling embarrassed about yourself,EMO,+4.0,
+alarm::a clock that wakes a sleeper at a preset time,alarm,a clock that wakes a sleeper at a preset time,UNCERTAIN,+0.0,NONEMO
+dither::an excited state of agitation,dither,an excited state of agitation,EMO,+7.0,
+gay::bright and pleasant; promoting a feeling of cheer,gay,bright and pleasant; promoting a feeling of cheer,EMO,+10.0,
+gloomy::depressingly dark,gloomy,depressingly dark,UNCERTAIN,+0.0,NONEMO
+heart::the choicest or most essential or most vital part of some idea or experience,heart,the choicest or most essential or most vital part of some idea or experience,UNCERTAIN,+0.0,NONEMO
+hurt::feelings of mental or physical pain,hurt,feelings of mental or physical pain,UNCERTAIN,+1.0,EMO
+jubilation::the utterance of sounds expressing great joy,jubilation,the utterance of sounds expressing great joy,EMO,+2.0,
+modest::humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness,modest,humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness,EMO,+2.0,
+peace::harmonious relations; freedom from disputes,peace,harmonious relations; freedom from disputes,UNCERTAIN,+0.0,NONEMO
+peace::the general security of public places,peace,the general security of public places,UNCERTAIN,+0.0,NONEMO
+reluctance::a certain degree of unwillingness,reluctance,a certain degree of unwillingness,UNCERTAIN,+0.0,EMO
+resentment::a feeling of deep and bitter anger and ill-will,resentment,a feeling of deep and bitter anger and ill-will,EMO,+10.0,
+bravery::a quality of spirit that enables you to face danger or pain without showing fear,bravery,a quality of spirit that enables you to face danger or pain without showing fear,EMO,+2.0,
+defeat::an unsuccessful ending to a struggle or contest,defeat,an unsuccessful ending to a struggle or contest,UNCERTAIN,+0.0,NONEMO
+ire::belligerence aroused by a real or supposed wrong,ire,belligerence aroused by a real or supposed wrong,UNCERTAIN,+1.0,EMO
+mourning::state of sorrow over the death or departure of a loved one,mourning,state of sorrow over the death or departure of a loved one,EMO,+2.0,
+mercy::alleviation of distress; showing great kindness toward the distressed,mercy,alleviation of distress; showing great kindness toward the distressed,EMO,+4.0,
+pleasure::a fundamental feeling that is hard to define but that people desire to experience,pleasure,a fundamental feeling that is hard to define but that people desire to experience,EMO,+6.0,
+zest::great enthusiasm and energy,zest,great enthusiasm and energy,EMO,+2.0,
+torture::intense feelings of suffering; acute mental or physical pain,torture,intense feelings of suffering; acute mental or physical pain,UNCERTAIN,+1.0,EMO
+torment::intense feelings of suffering; acute mental or physical pain,torment,intense feelings of suffering; acute mental or physical pain,UNCERTAIN,+1.0,EMO
+torment::a severe affliction,torment,a severe affliction,UNCERTAIN,+0.0,NONEMO
+surrender::acceptance of despair,surrender,acceptance of despair,EMO,+2.0,
+trust::certainty based on past experience,trust,certainty based on past experience,UNCERTAIN,+0.0,NONEMO
+affright::an overwhelming feeling of fear and anxiety,affright,an overwhelming feeling of fear and anxiety,EMO,+9.0,
+alarm::fear resulting from the awareness of danger,alarm,fear resulting from the awareness of danger,EMO,+2.0,
+animus::a feeling of ill will arousing active hostility,animus,a feeling of ill will arousing active hostility,EMO,+10.0,
+bloodless::without vigor or zest or energy,bloodless,without vigor or zest or energy,UNCERTAIN,+0.0,EMO
+conceit::an artistic device or effect,conceit,an artistic device or effect,NONEMO,-6.0,
+depressed::filled with melancholy and despondency,depressed,filled with melancholy and despondency,EMO,+2.0,
+eerie::inspiring a feeling of fear; strange and frightening,eerie,inspiring a feeling of fear; strange and frightening,EMO,+10.0,
+esteem::an attitude of admiration or esteem,esteem,an attitude of admiration or esteem,EMO,+2.0,
+excitement::the feeling of lively and cheerful joy,excitement,the feeling of lively and cheerful joy,EMO,+9.0,
+frightful::extremely distressing,frightful,extremely distressing,UNCERTAIN,+0.0,EMO
+glad::eagerly disposed to act or to be of service,glad,eagerly disposed to act or to be of service,UNCERTAIN,+0.0,EMO
+grievance::an allegation that something imposes an illegal obligation or denies some legal right or causes injustice,grievance,an allegation that something imposes an illegal obligation or denies some legal right or causes injustice,UNCERTAIN,+0.0,NONEMO
+harsh::of textures that are rough to the touch or substances consisting of relatively large particles,harsh,of textures that are rough to the touch or substances consisting of relatively large particles,NONEMO,-3.0,
+hesitance::a feeling of diffidence and indecision about doing something,hesitance,a feeling of diffidence and indecision about doing something,EMO,+10.0,
+jubilation::a joyful occasion for special festivities to mark some happy event,jubilation,a joyful occasion for special festivities to mark some happy event,UNCERTAIN,+0.0,NONEMO
+mirth::great merriment,mirth,great merriment,UNCERTAIN,+0.0,EMO
+nervous::easily agitated,nervous,easily agitated,EMO,+2.0,
+nervous::causing or fraught with or showing anxiety,nervous,causing or fraught with or showing anxiety,EMO,+2.0,
+peace::the state prevailing during the absence of war,peace,the state prevailing during the absence of war,UNCERTAIN,+0.0,NONEMO
+rage::a state of extreme anger,rage,a state of extreme anger,EMO,+2.0,
+rejoicing::the utterance of sounds expressing great joy,rejoicing,the utterance of sounds expressing great joy,EMO,+2.0,
+red-hot::characterized by intense emotion or interest or excitement,red-hot,characterized by intense emotion or interest or excitement,EMO,+5.0,
+satisfaction::compensation for a wrong,satisfaction,compensation for a wrong,UNCERTAIN,+0.0,NONEMO
+bliss::a state of extreme happiness,bliss,a state of extreme happiness,EMO,+2.0,
+closeness::a feeling of being intimate and belonging together,closeness,a feeling of being intimate and belonging together,EMO,+8.0,
+conscience::conformity to one's own sense of right conduct,conscience,conformity to one's own sense of right conduct,UNCERTAIN,+0.0,NONEMO
+desire::something that is desired,desire,something that is desired,UNCERTAIN,+0.0,NONEMO
+enmity::the feeling of a hostile person,enmity,the feeling of a hostile person,EMO,+7.0,
+exultation::the utterance of sounds expressing great joy,exultation,the utterance of sounds expressing great joy,EMO,+2.0,
+felicity::pleasing and appropriate manner or style,felicity,pleasing and appropriate manner or style,UNCERTAIN,+0.0,NONEMO
+loyalty::feelings of allegiance,loyalty,feelings of allegiance,EMO,+3.0,
+mercy::the feeling that motivates compassion,mercy,the feeling that motivates compassion,EMO,+7.0,
+torture::extreme mental distress,torture,extreme mental distress,EMO,+4.0,
+torture::unbearable physical pain,torture,unbearable physical pain,NONEMO,-2.0,
+"torture::the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason",torture,"the deliberate, systematic, or wanton infliction of physical or mental suffering by one or more persons in an attempt to force another person to yield information or to make a confession or for any other reason",UNCERTAIN,+0.0,NONEMO
+torment::unbearable physical pain,torment,unbearable physical pain,NONEMO,-2.0,
+torment::the act of harassing someone,torment,the act of harassing someone,NONEMO,-2.0,
+suspense::an uncertain cognitive state,suspense,an uncertain cognitive state,UNCERTAIN,+0.0,EMO
+sad::feeling or showing sorrow; unhappy,sad,feeling or showing sorrow; unhappy,EMO,+9.0,
+afraid::having feelings of aversion or unwillingness,afraid,having feelings of aversion or unwillingness,EMO,+5.0,
+ambition::a strong drive for success,ambition,a strong drive for success,UNCERTAIN,+0.0,EMO
+antagonism::an actively expressed feeling of dislike and hostility,antagonism,an actively expressed feeling of dislike and hostility,EMO,+9.0,
+annoyance::the psychological state of being irritated or annoyed,annoyance,the psychological state of being irritated or annoyed,EMO,+2.0,
+ardor::feelings of great warmth and intensity,ardor,feelings of great warmth and intensity,EMO,+5.0,
+bloodless::devoid of human emotion or feeling,bloodless,devoid of human emotion or feeling,EMO,+5.0,
+calmness::a feeling of calm; an absence of agitation or excitement,calmness,a feeling of calm; an absence of agitation or excitement,EMO,+13.0,
+carnality::feeling morbid sexual desire or a propensity to lewdness,carnality,feeling morbid sexual desire or a propensity to lewdness,EMO,+3.0,
+comfort::the act of consoling; giving relief in affliction,comfort,the act of consoling; giving relief in affliction,UNCERTAIN,+0.0,NONEMO
+conceit::the trait of being unduly vain and conceited; false pride,conceit,the trait of being unduly vain and conceited; false pride,EMO,+2.0,
+desolation::sadness resulting from being forsaken or abandoned,desolation,sadness resulting from being forsaken or abandoned,EMO,+2.0,
+detachment::the state of being isolated or detached,detachment,the state of being isolated or detached,UNCERTAIN,+0.0,NONEMO
+dreadful::very unpleasant,dreadful,very unpleasant,UNCERTAIN,+0.0,NONEMO
+fearful::timid by nature or revealing timidity,fearful,timid by nature or revealing timidity,EMO,+2.0,
+gay::brightly colored and showy,gay,brightly colored and showy,UNCERTAIN,+0.0,NONEMO
+harsh::disagreeable to the senses,harsh,disagreeable to the senses,UNCERTAIN,+0.0,NONEMO
+hope::someone (or something) on which expectations are centered,hope,someone (or something) on which expectations are centered,UNCERTAIN,+0.0,NONEMO
+intimacy::a usually secretive or illicit sexual relationship,intimacy,a usually secretive or illicit sexual relationship,UNCERTAIN,+0.0,NONEMO
+lonely::characterized by or preferring solitude,lonely,characterized by or preferring solitude,UNCERTAIN,+0.0,EMO
+peace::the absence of mental stress or anxiety,peace,the absence of mental stress or anxiety,EMO,+2.0,
+pride::a feeling of self-respect and personal worth,pride,a feeling of self-respect and personal worth,EMO,+8.0,
+pride::the trait of being spurred on by a dislike of falling below your standards,pride,the trait of being spurred on by a dislike of falling below your standards,EMO,+2.0,
+radiance::an attractive combination of good health and happiness,radiance,an attractive combination of good health and happiness,EMO,+2.0,
+relief::assistance in time of difficulty,relief,assistance in time of difficulty,UNCERTAIN,+0.0,NONEMO
+aggression::a feeling of hostility that arouses thoughts of attack,aggression,a feeling of hostility that arouses thoughts of attack,EMO,+10.0,
+aggression::the act of initiating hostilities,aggression,the act of initiating hostilities,NONEMO,-2.0,
+care::a cause for feeling concern,care,a cause for feeling concern,EMO,+2.0,
+care::activity involved in maintaining something in good working order,care,activity involved in maintaining something in good working order,UNCERTAIN,+0.0,NONEMO
+closeness::characterized by a lack of openness (especially about one's actions or purposes),closeness,characterized by a lack of openness (especially about one's actions or purposes),UNCERTAIN,+0.0,NONEMO
+desire::an inclination to want things,desire,an inclination to want things,UNCERTAIN,+0.0,EMO
+ire::a strong emotion; a feeling that is oriented toward some real or supposed grievance,ire,a strong emotion; a feeling that is oriented toward some real or supposed grievance,EMO,+8.0,
+panic::sudden mass fear and anxiety over anticipated events,panic,sudden mass fear and anxiety over anticipated events,EMO,+4.0,
+mercy::a disposition to be kind and forgiving,mercy,a disposition to be kind and forgiving,UNCERTAIN,+1.0,EMO
+mercy::something for which to be thankful,mercy,something for which to be thankful,UNCERTAIN,+0.0,NONEMO
+pleasure::something or someone that provides a source of happiness,pleasure,something or someone that provides a source of happiness,EMO,+2.0,
+pleasure::an activity that affords enjoyment,pleasure,an activity that affords enjoyment,UNCERTAIN,+0.0,NONEMO
+surprise::an unexpected or astonishing event fact or thing,surprise,an unexpected or astonishing event fact or thing,UNCERTAIN,+0.0,NONEMO
+solace::act of consoling,solace,act of consoling,UNCERTAIN,+0.0,NONEMO
+dolor::painful grief,dolor,painful grief,EMO,+4.0,
+surrender::the act of surrendering (usually under agreed conditions),surrender,the act of surrendering (usually under agreed conditions),NONEMO,-2.0,
+thrill::the swift release of a roller coaster drop,thrill,the swift release of a roller coaster drop,UNCERTAIN,+0.0,NONEMO
+suspense::excited anticipation of an approaching climax,suspense,excited anticipation of an approaching climax,EMO,+2.0,
+amorousness::the arousal of feelings of sexual desire,amorousness,the arousal of feelings of sexual desire,EMO,+4.0,
+annoyance::anger produced by some annoying irritation,annoyance,anger produced by some annoying irritation,EMO,+4.0,
+ardor::intense feeling of love,ardor,intense feeling of love,EMO,+6.0,
+callous::emotionally hardened,callous,emotionally hardened,EMO,+2.0,
+calmness::steadiness of mind under stress,calmness,steadiness of mind under stress,UNCERTAIN,+0.0,EMO
+caring::feeling and exhibiting concern and empathy for others,caring,feeling and exhibiting concern and empathy for others,EMO,+4.0,
+curiosity::something unusual -- perhaps worthy of collecting,curiosity,something unusual -- perhaps worthy of collecting,UNCERTAIN,+0.0,NONEMO
+daze::confusion characterized by lack of clarity,daze,confusion characterized by lack of clarity,UNCERTAIN,+0.0,EMO
+dignity::formality in bearing and appearance,dignity,formality in bearing and appearance,UNCERTAIN,+0.0,NONEMO
+esteem::a feeling of delighted approval and liking,esteem,a feeling of delighted approval and liking,EMO,+10.0,
+excited::in an aroused state,excited,in an aroused state,UNCERTAIN,+1.0,EMO
+excitement::disturbance usually in protest,excitement,disturbance usually in protest,NONEMO,-3.0,
+"exuberant::unrestrained, especially with regard to feelings",exuberant,"unrestrained, especially with regard to feelings",UNCERTAIN,+0.0,EMO
+fearful::causing fear or dread or terror,fearful,causing fear or dread or terror,EMO,+6.0,
+fervor::the state of being emotionally aroused and worked up,fervor,the state of being emotionally aroused and worked up,EMO,+6.0,
+harsh::unpleasantly stern,harsh,unpleasantly stern,UNCERTAIN,+0.0,NONEMO
+horrid::exceedingly bad,horrid,exceedingly bad,UNCERTAIN,+0.0,NONEMO
+humour::a characteristic state of feeling,humour,a characteristic state of feeling,EMO,+2.0,
+jolliness::feeling jolly and jovial and full of good humor,jolliness,feeling jolly and jovial and full of good humor,EMO,+4.0,
+keenness::thinness of edge or fineness of point,keenness,thinness of edge or fineness of point,NONEMO,-3.0,
+lonely::devoid of creatures,lonely,devoid of creatures,UNCERTAIN,+0.0,NONEMO
+madness::unrestrained excitement or enthusiasm,madness,unrestrained excitement or enthusiasm,EMO,+4.0,
+mellow::unhurried and relaxed,mellow,unhurried and relaxed,UNCERTAIN,+0.0,EMO
+respect::the condition of being honored (esteemed or respected or well regarded),respect,the condition of being honored (esteemed or respected or well regarded),UNCERTAIN,+0.0,NONEMO
+respect::a feeling of friendship and esteem,respect,a feeling of friendship and esteem,EMO,+8.0,
+sadness::emotions experienced when not in a state of well-being,sadness,emotions experienced when not in a state of well-being,EMO,+5.0,
+satisfaction::act of fulfilling a desire or need or appetite,satisfaction,act of fulfilling a desire or need or appetite,UNCERTAIN,+1.0,NONEMO
+awe::a feeling of profound respect for someone or something,awe,a feeling of profound respect for someone or something,EMO,+8.0,
+capricious::changeable,capricious,changeable,UNCERTAIN,+0.0,NONEMO
+confidence::a secret that is confided or entrusted to another,confidence,a secret that is confided or entrusted to another,UNCERTAIN,+0.0,NONEMO
+empathy::understanding and entering into another's feelings,empathy,understanding and entering into another's feelings,UNCERTAIN,+0.0,EMO
+enjoyment::act of receiving pleasure from something,enjoyment,act of receiving pleasure from something,UNCERTAIN,+1.0,NONEMO
+humbleness::a disposition to be humble; a lack of false pride,humbleness,a disposition to be humble; a lack of false pride,EMO,+3.0,
+mourning::the passionate and demonstrative activity of expressing grief,mourning,the passionate and demonstrative activity of expressing grief,EMO,+4.0,
+veneration::great respect; reverence,veneration,great respect; reverence,EMO,+2.0,
+torment::a feeling of intense annoyance caused by being tormented,torment,a feeling of intense annoyance caused by being tormented,EMO,+10.0,
+sorrow::an emotion of great sadness associated with loss or bereavement,sorrow,an emotion of great sadness associated with loss or bereavement,EMO,+5.0,
+tenderness::a tendency to express warm and affectionate feeling,tenderness,a tendency to express warm and affectionate feeling,EMO,+4.0,
+tenderness::warm compassionate feelings,tenderness,warm compassionate feelings,EMO,+2.0,
+tenderness::a positive feeling of liking,tenderness,a positive feeling of liking,EMO,+7.0,
+tenderness::a feeling of concern for the welfare of someone (especially someone defenseless),tenderness,a feeling of concern for the welfare of someone (especially someone defenseless),EMO,+8.0,
+security::freedom from anxiety or fear,security,freedom from anxiety or fear,EMO,+4.0,
+trust::the trait of believing in the honesty and reliability of others,trust,the trait of believing in the honesty and reliability of others,UNCERTAIN,+0.0,EMO
+abomination::hate coupled with disgust,abomination,hate coupled with disgust,EMO,+4.0,
+aversion::the act of turning yourself (or your gaze) away,aversion,the act of turning yourself (or your gaze) away,NONEMO,-2.0,
+chesty::default,chesty,default,UNCERTAIN,+0.0,UNCERTAIN
+consolation::the act of consoling; giving relief in affliction,consolation,the act of consoling; giving relief in affliction,UNCERTAIN,+0.0,NONEMO
+cruelty::feelings of extreme heartlessness,cruelty,feelings of extreme heartlessness,EMO,+3.0,
+desolation::an event that results in total destruction,desolation,an event that results in total destruction,UNCERTAIN,-1.0,NONEMO
+emotion::any strong feeling,emotion,any strong feeling,EMO,+2.0,
+excitement::the state of being emotionally aroused and worked up,excitement,the state of being emotionally aroused and worked up,EMO,+6.0,
+feelings::the experiencing of affective and emotional states,feelings,the experiencing of affective and emotional states,EMO,+3.0,
+hopefulness::the feeling you have when you have hope,hopefulness,the feeling you have when you have hope,EMO,+4.0,
+horror::something that inspires dislike; something horrible,horror,something that inspires dislike; something horrible,EMO,+2.0,
+humiliation::strong feelings of embarrassment,humiliation,strong feelings of embarrassment,EMO,+5.0,
+irritation::a sudden outburst of anger,irritation,a sudden outburst of anger,EMO,+2.0,
+joviality::a jovial nature,joviality,a jovial nature,EMO,+2.0,
+liking::a feeling of pleasure and enjoyment,liking,a feeling of pleasure and enjoyment,EMO,+9.0,
+lonely::marked by dejection from being alone,lonely,marked by dejection from being alone,EMO,+2.0,
+peace::a treaty to cease hostilities,peace,a treaty to cease hostilities,NONEMO,-3.0,
+pride::satisfaction with your (or another's) achievements,pride,satisfaction with your (or another's) achievements,EMO,+2.0,
+rejoicing::a feeling of great happiness,rejoicing,a feeling of great happiness,EMO,+10.0,
+red-hot::having strong sexual appeal,red-hot,having strong sexual appeal,UNCERTAIN,+0.0,NONEMO
+relief::the feeling that comes when something burdensome is removed or reduced,relief,the feeling that comes when something burdensome is removed or reduced,EMO,+5.0,
+aggression::a disposition to behave aggressively,aggression,a disposition to behave aggressively,UNCERTAIN,+1.0,EMO
+aggression::violent action that is hostile and usually unprovoked,aggression,violent action that is hostile and usually unprovoked,EMO,+2.0,
+aggression::deliberately unfriendly behavior,aggression,deliberately unfriendly behavior,UNCERTAIN,+0.0,NONEMO
+capricious::determined by chance or impulse or whim rather than by necessity or reason,capricious,determined by chance or impulse or whim rather than by necessity or reason,UNCERTAIN,+0.0,NONEMO
+care::an anxious feeling,care,an anxious feeling,EMO,+4.0,
+care::attention and management implying responsibility for safety,care,attention and management implying responsibility for safety,UNCERTAIN,+0.0,NONEMO
+chill::an almost pleasurable sensation of fright,chill,an almost pleasurable sensation of fright,UNCERTAIN,+0.0,EMO
+closeness::the quality of being close and poorly ventilated,closeness,the quality of being close and poorly ventilated,UNCERTAIN,+0.0,NONEMO
+conscience::motivation deriving logically from ethical or moral principles that govern a person's thoughts and actions,conscience,motivation deriving logically from ethical or moral principles that govern a person's thoughts and actions,UNCERTAIN,+0.0,NONEMO
+confidence::a state of confident hopefulness that events will be favorable,confidence,a state of confident hopefulness that events will be favorable,EMO,+2.0,
+devotion::commitment to some purpose,devotion,commitment to some purpose,UNCERTAIN,+0.0,NONEMO
+devotion::religious observance or prayers,devotion,religious observance or prayers,UNCERTAIN,+0.0,NONEMO
+humbleness::a humble feeling,humbleness,a humble feeling,EMO,+4.0,
+mourning::sorrowful through loss or deprivation,mourning,sorrowful through loss or deprivation,UNCERTAIN,+0.0,EMO
+playfulness::a disposition to find (or make) causes for amusement,playfulness,a disposition to find (or make) causes for amusement,EMO,+3.0,
+scorn::lack of respect accompanied by a feeling of intense dislike,scorn,lack of respect accompanied by a feeling of intense dislike,EMO,+10.0,
+self-pity::a feeling of sorrow (often self-indulgent) over your own sufferings,self-pity,a feeling of sorrow (often self-indulgent) over your own sufferings,EMO,+10.0,
+wish::a specific feeling of desire,wish,a specific feeling of desire,EMO,+6.0,
+"self-trust::confidence in one's own abilities, judgment, or character",self-trust,"confidence in one's own abilities, judgment, or character",EMO,+2.0,
+terror::an overwhelming feeling of fear and anxiety,terror,an overwhelming feeling of fear and anxiety,EMO,+9.0,
+terror::a very troublesome child,terror,a very troublesome child,UNCERTAIN,+0.0,NONEMO
+terror::a person who inspires fear or dread,terror,a person who inspires fear or dread,UNCERTAIN,+1.0,NONEMO
+sulk::a mood or display of sullen aloofness or withdrawal,sulk,a mood or display of sullen aloofness or withdrawal,EMO,+4.0,
+condolence::sympathy with another in sorrow,condolence,sympathy with another in sorrow,EMO,+4.0,
+abandonment::withdrawing support or help despite allegiance or responsibility,abandonment,withdrawing support or help despite allegiance or responsibility,UNCERTAIN,+0.0,NONEMO
+annoyance::something or someone that causes trouble; a source of unhappiness,annoyance,something or someone that causes trouble; a source of unhappiness,EMO,+2.0,
+appreciation::an expression of gratitude,appreciation,an expression of gratitude,EMO,+2.0,
+blowup::an unrestrained expression of emotion,blowup,an unrestrained expression of emotion,EMO,+3.0,
+brotherhood::the kinship relation between a male offspring and the siblings,brotherhood,the kinship relation between a male offspring and the siblings,UNCERTAIN,+0.0,NONEMO
+brotherhood::people engaged in a particular occupation,brotherhood,people engaged in a particular occupation,NONEMO,-6.0,
+confusion::a feeling of embarrassment that leaves you confused,confusion,a feeling of embarrassment that leaves you confused,EMO,+10.0,
+desirous::having or expressing desire for something,desirous,having or expressing desire for something,UNCERTAIN,+1.0,EMO
+desolate::crushed by grief,desolate,crushed by grief,EMO,+4.0,
+despair::a state in which all hope is lost or absent,despair,a state in which all hope is lost or absent,EMO,+2.0,
+desolation::the state of being decayed or destroyed,desolation,the state of being decayed or destroyed,NONEMO,-2.0,
+desolation::a bleak and desolate atmosphere,desolation,a bleak and desolate atmosphere,UNCERTAIN,+0.0,NONEMO
+doleful::filled with or evoking sadness,doleful,filled with or evoking sadness,EMO,+2.0,
+distress::extreme physical pain,distress,extreme physical pain,NONEMO,-2.0,
+dreadful::exceptionally bad or displeasing,dreadful,exceptionally bad or displeasing,UNCERTAIN,+0.0,NONEMO
+ease::freedom from difficulty or hardship or effort,ease,freedom from difficulty or hardship or effort,UNCERTAIN,+0.0,NONEMO
+emotive::characterized by emotion,emotive,characterized by emotion,EMO,+6.0,
+exuberance::overflowing with eager enjoyment or approval,exuberance,overflowing with eager enjoyment or approval,EMO,+2.0,
+exuberant::produced or growing in extreme abundance,exuberant,produced or growing in extreme abundance,UNCERTAIN,+0.0,NONEMO
+fearful::experiencing or showing fear,fearful,experiencing or showing fear,EMO,+2.0,
+fearful::extremely distressing,fearful,extremely distressing,UNCERTAIN,+0.0,NONEMO
+fury::a feeling of intense anger,fury,a feeling of intense anger,EMO,+10.0,
+grievance::a resentment strong enough to justify retaliation,grievance,a resentment strong enough to justify retaliation,EMO,+2.0,
+hysteria::excessive or uncontrollable fear,hysteria,excessive or uncontrollable fear,EMO,+2.0,
+infatuation::an object of extravagant short-lived passion,infatuation,an object of extravagant short-lived passion,UNCERTAIN,+1.0,EMO
+interest::a reason for wanting something done,interest,a reason for wanting something done,UNCERTAIN,+0.0,NONEMO
+irritation::an uncomfortable feeling of mental painfulness or distress,irritation,an uncomfortable feeling of mental painfulness or distress,EMO,+9.0,
+irritation::unfriendly behavior that causes anger or resentment,irritation,unfriendly behavior that causes anger or resentment,EMO,+4.0,
+love::a strong positive emotion of regard and affection,love,a strong positive emotion of regard and affection,EMO,+7.0,
+miffed::aroused to impatience or anger,miffed,aroused to impatience or anger,EMO,+5.0,
+mellow::having attained to kindliness or gentleness through age and experience,mellow,having attained to kindliness or gentleness through age and experience,UNCERTAIN,+0.0,EMO
+peeve::an annoyed or irritated mood,peeve,an annoyed or irritated mood,EMO,+4.0,
+passion::a strong feeling or emotion,passion,a strong feeling or emotion,EMO,+5.0,
+rage::a feeling of intense anger,rage,a feeling of intense anger,EMO,+10.0,
+quiver::an almost pleasurable sensation of fright,quiver,an almost pleasurable sensation of fright,UNCERTAIN,+0.0,EMO
+quiver::a shaky motion,quiver,a shaky motion,UNCERTAIN,+0.0,NONEMO
+bravery::feeling no fear,bravery,feeling no fear,EMO,+4.0,
+closeness::extreme stinginess,closeness,extreme stinginess,UNCERTAIN,+0.0,NONEMO
+conscience::a feeling of shame when you do something immoral,conscience,a feeling of shame when you do something immoral,EMO,+10.0,
+concern::an anxious feeling,concern,an anxious feeling,EMO,+4.0,
+confidence::freedom from doubt; belief in yourself and your abilities,confidence,freedom from doubt; belief in yourself and your abilities,UNCERTAIN,+0.0,EMO
+desire::the feeling that accompanies an unsatisfied state,desire,the feeling that accompanies an unsatisfied state,EMO,+5.0,
+devotion::religious zeal; the willingness to serve God,devotion,religious zeal; the willingness to serve God,EMO,+2.0,
+elation::a feeling of joy and pride,elation,a feeling of joy and pride,EMO,+12.0,
+playfulness::a festive merry feeling,playfulness,a festive merry feeling,EMO,+2.0,
+gloom::a state of depression or despondency,gloom,a state of depression or despondency,EMO,+5.0,
+worry::give way to anxiety or unease; allow one's mind to dwell on difficulty or troubles,worry,give way to anxiety or unease; allow one's mind to dwell on difficulty or troubles,EMO,+4.0,
+worship::the feeling or expression of reverence and adoration for a deity,worship,the feeling or expression of reverence and adoration for a deity,EMO,+4.0,
+tranquility::a disposition free from stress or emotion,tranquility,a disposition free from stress or emotion,EMO,+4.0,
+zeal::prompt willingness,zeal,prompt willingness,UNCERTAIN,+0.0,EMO
+terror::the use of extreme fear in order to coerce people,terror,the use of extreme fear in order to coerce people,EMO,+2.0,
+self-love::an exceptional interest in and admiration for yourself,self-love,an exceptional interest in and admiration for yourself,EMO,+2.0,
+self-love::feelings of excessive pride,self-love,feelings of excessive pride,EMO,+5.0,
+tenderness::a pain that is felt (as when the area is touched),tenderness,a pain that is felt (as when the area is touched),UNCERTAIN,+0.0,NONEMO
+self-pride::a feeling of pride in yourself,self-pride,a feeling of pride in yourself,EMO,+10.0,
+affectional::characterized by emotion,affectional,characterized by emotion,EMO,+6.0,
+adoration::the worship given to God alone,adoration,the worship given to God alone,UNCERTAIN,+0.0,EMO
+alarm::a device that signals the occurrence of some undesirable event,alarm,a device that signals the occurrence of some undesirable event,NONEMO,-3.0,
+anxiety::a vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortune,anxiety,a vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortune,EMO,+5.0,
+anxious::eagerly desirous,anxious,eagerly desirous,UNCERTAIN,+0.0,EMO
+aroused::feeling great sexual desire,aroused,feeling great sexual desire,EMO,+3.0,
+captive::a person held in the grip of a strong emotion or passion,captive,a person held in the grip of a strong emotion or passion,EMO,+4.0,
+comfort::a feeling of freedom from worry or disappointment,comfort,a feeling of freedom from worry or disappointment,EMO,+10.0,
+conceit::feelings of excessive pride,conceit,feelings of excessive pride,EMO,+5.0,
+eager::having or showing keen interest or intense desire or impatient expectancy,eager,having or showing keen interest or intense desire or impatient expectancy,EMO,+3.0,
+ecstasy::a state of elated bliss,ecstasy,a state of elated bliss,EMO,+5.0,
+ease::freedom from constraint or embarrassment,ease,freedom from constraint or embarrassment,EMO,+2.0,
+eerie::suggestive of the supernatural; mysterious,eerie,suggestive of the supernatural; mysterious,UNCERTAIN,+0.0,NONEMO
+fear::an anxious feeling,fear,an anxious feeling,EMO,+4.0,
+gleeful::full of high-spirited delight,gleeful,full of high-spirited delight,EMO,+2.0,
+guilt::remorse caused by feeling responsible for some offense,guilt,remorse caused by feeling responsible for some offense,EMO,+6.0,
+hilarity::great merriment,hilarity,great merriment,UNCERTAIN,+0.0,EMO
+horny::feeling great sexual desire,horny,feeling great sexual desire,EMO,+3.0,
+horror::intense and profound fear,horror,intense and profound fear,EMO,+2.0,
+humiliation::an instance in which you are caused to lose your prestige or self-respect,humiliation,an instance in which you are caused to lose your prestige or self-respect,UNCERTAIN,+0.0,NONEMO
+hysterical::marked by excessive or uncontrollable emotion,hysterical,marked by excessive or uncontrollable emotion,EMO,+3.0,
+irritation::the psychological state of being irritated or annoyed,irritation,the psychological state of being irritated or annoyed,EMO,+2.0,
+jubilation::a feeling of extreme joy,jubilation,a feeling of extreme joy,EMO,+10.0,
+keenness::a positive feeling of wanting to push ahead with something,keenness,a positive feeling of wanting to push ahead with something,EMO,+5.0,
+languor::inactivity; showing an unusual lack of energy,languor,inactivity; showing an unusual lack of energy,UNCERTAIN,+0.0,NONEMO
+loved::held dear,loved,held dear,UNCERTAIN,+0.0,EMO
+lonely::lacking companions or companionship,lonely,lacking companions or companionship,UNCERTAIN,+0.0,EMO
+meekness::a disposition to be patient and long suffering,meekness,a disposition to be patient and long suffering,UNCERTAIN,+1.0,EMO
+penance::a Catholic sacrament; repentance and confession and atonement and absolution,penance,a Catholic sacrament; repentance and confession and atonement and absolution,EMO,+2.0,
+pity::the humane quality of understanding the suffering of others and wanting to do something about it,pity,the humane quality of understanding the suffering of others and wanting to do something about it,UNCERTAIN,+0.0,EMO
+radiance::the quality of being bright and sending out rays of light,radiance,the quality of being bright and sending out rays of light,NONEMO,-4.0,
+restlessness::the quality of being ceaselessly moving or active,restlessness,the quality of being ceaselessly moving or active,UNCERTAIN,+0.0,NONEMO
+chill::coldness due to a cold environment,chill,coldness due to a cold environment,UNCERTAIN,+0.0,NONEMO
+closeness::the spatial property resulting from a relatively small distance,closeness,the spatial property resulting from a relatively small distance,UNCERTAIN,+0.0,NONEMO
+devotion::feelings of ardent love,devotion,feelings of ardent love,EMO,+4.0,
+exultation::a feeling of extreme joy,exultation,a feeling of extreme joy,EMO,+10.0,
+lecherousness::a strong sexual desire,lecherousness,a strong sexual desire,UNCERTAIN,+1.0,EMO
+solace::comfort,solace,comfort,UNCERTAIN,+0.0,EMO
+tranquility::an untroubled state; free from disturbances,tranquility,an untroubled state; free from disturbances,UNCERTAIN,+0.0,EMO
+zeal::excessive fervor to do something or accomplish some end,zeal,excessive fervor to do something or accomplish some end,EMO,+2.0,
+scorn::open disrespect for a person or thing,scorn,open disrespect for a person or thing,UNCERTAIN,+0.0,EMO
+serenity::a disposition free from stress or emotion,serenity,a disposition free from stress or emotion,EMO,+4.0,
+security::the state of being free from danger or injury,security,the state of being free from danger or injury,UNCERTAIN,+0.0,NONEMO
+appeasement::to bring to a state of peace or quiet,appeasement,to bring to a state of peace or quiet,UNCERTAIN,+0.0,NONEMO
+abomination::an action that is vicious or vile; an action that arouses disgust or abhorrence,abomination,an action that is vicious or vile; an action that arouses disgust or abhorrence,EMO,+2.0,
+affection::a positive feeling of liking,affection,a positive feeling of liking,EMO,+7.0,
+animosity::a feeling of ill will arousing active hostility,animosity,a feeling of ill will arousing active hostility,EMO,+10.0,
+ardor::a feeling of strong eagerness (usually in favor of a person or cause),ardor,a feeling of strong eagerness (usually in favor of a person or cause),EMO,+10.0,
+bored::uninterested because of frequent exposure or indulgence,bored,uninterested because of frequent exposure or indulgence,UNCERTAIN,+0.0,EMO
+confusion::a mental state characterized by a lack of clear and orderly thought and behavior,confusion,a mental state characterized by a lack of clear and orderly thought and behavior,EMO,+2.0,
+contempt::lack of respect accompanied by a feeling of intense dislike,contempt,lack of respect accompanied by a feeling of intense dislike,EMO,+10.0,
+distress::psychological suffering,distress,psychological suffering,UNCERTAIN,+0.0,EMO
+dread::fearful expectation or anticipation,dread,fearful expectation or anticipation,UNCERTAIN,+0.0,EMO
+dreadful::causing fear or dread or terror,dreadful,causing fear or dread or terror,EMO,+6.0,
+encouragement::the feeling of being encouraged,encouragement,the feeling of being encouraged,EMO,+5.0,
+excitement::something that agitates and arouses,excitement,something that agitates and arouses,UNCERTAIN,+0.0,NONEMO
+fascination::a feeling of great liking for something wonderful and unusual,fascination,a feeling of great liking for something wonderful and unusual,EMO,+10.0,
+fear::a feeling of profound respect for someone or something,fear,a feeling of profound respect for someone or something,EMO,+8.0,
+fervor::feelings of great warmth and intensity,fervor,feelings of great warmth and intensity,EMO,+5.0,
+furious::marked by extreme anger,furious,marked by extreme anger,EMO,+2.0,
+greedy::wanting to eat or drink more than one can reasonably consume,greedy,wanting to eat or drink more than one can reasonably consume,UNCERTAIN,+0.0,EMO
+grouchy::annoyed and irritable,grouchy,annoyed and irritable,EMO,+2.0,
+grudge::a resentment strong enough to justify retaliation,grudge,a resentment strong enough to justify retaliation,EMO,+2.0,
+horror::intense aversion,horror,intense aversion,EMO,+2.0,
+hysteria::neurotic disorder characterized by violent emotional outbreaks and disturbances of sensory and motor functions,hysteria,neurotic disorder characterized by violent emotional outbreaks and disturbances of sensory and motor functions,UNCERTAIN,+1.0,EMO
+mad::marked by uncontrolled excitement or emotion,mad,marked by uncontrolled excitement or emotion,EMO,+5.0,
+melancholy::a constitutional tendency to be gloomy and depressed,melancholy,a constitutional tendency to be gloomy and depressed,EMO,+2.0,
+modest::not offensive to sexual mores in conduct or appearance,modest,not offensive to sexual mores in conduct or appearance,UNCERTAIN,+0.0,NONEMO
+overemotional::excessively or abnormally emotional,overemotional,excessively or abnormally emotional,EMO,+3.0,
+qualm::uneasiness about the fitness of an action,qualm,uneasiness about the fitness of an action,EMO,+2.0,
+regard::a long fixed look,regard,a long fixed look,UNCERTAIN,+0.0,NONEMO
+restlessness::inability to rest or relax or be still,restlessness,inability to rest or relax or be still,UNCERTAIN,+0.0,EMO
+rueful::feeling or expressing pain or sorrow for sins or offenses,rueful,feeling or expressing pain or sorrow for sins or offenses,EMO,+4.0,
+satisfaction::state of being gratified or satisfied,satisfaction,state of being gratified or satisfied,EMO,+2.0,
+amusement::an activity that is diverting and that holds the attention,amusement,an activity that is diverting and that holds the attention,UNCERTAIN,+0.0,NONEMO
+antipathy::a feeling of intense dislike,antipathy,a feeling of intense dislike,EMO,+10.0,
+commiseration::an expression of sympathy with another's grief,commiseration,an expression of sympathy with another's grief,EMO,+6.0,
+confidence::a trustful relationship,confidence,a trustful relationship,UNCERTAIN,+0.0,NONEMO
+enthusiasm::a feeling of excitement,enthusiasm,a feeling of excitement,EMO,+10.0,
+filial love::the affection and devotion of a child toward a parent,filial love,the affection and devotion of a child toward a parent,EMO,+4.0,
+happiness::state of well-being characterized by emotions ranging from contentment to intense joy,happiness,state of well-being characterized by emotions ranging from contentment to intense joy,EMO,+8.0,
+frustration::a feeling of annoyance at being hindered or criticized,frustration,a feeling of annoyance at being hindered or criticized,EMO,+10.0,
+humbleness::the state of being humble and unimportant,humbleness,the state of being humble and unimportant,EMO,+2.0,
+malevolence::wishing evil to others,malevolence,wishing evil to others,UNCERTAIN,+0.0,EMO
+malevolence::the quality of threatening evil,malevolence,the quality of threatening evil,UNCERTAIN,+0.0,NONEMO
+petulance::an irritable petulant feeling,petulance,an irritable petulant feeling,EMO,+2.0,
+pining::a feeling of deep longing,pining,a feeling of deep longing,EMO,+10.0,
+playfulness::activities that are enjoyable or amusing,playfulness,activities that are enjoyable or amusing,UNCERTAIN,+0.0,NONEMO
+shyness::being reserved or having or showing nervousness or timidity in the company of other people,shyness,being reserved or having or showing nervousness or timidity in the company of other people,EMO,+2.0,
+self-respect::the pride and confidence in one's own worth,self-respect,the pride and confidence in one's own worth,EMO,+2.0,
+self-esteem::a feeling of pride in yourself,self-esteem,a feeling of pride in yourself,EMO,+10.0,
+zeal::a feeling of strong eagerness (usually in favor of a person or cause),zeal,a feeling of strong eagerness (usually in favor of a person or cause),EMO,+10.0,
+serenity::the absence of mental stress or anxiety,serenity,the absence of mental stress or anxiety,EMO,+2.0,
+wonder::a state in which you want to learn more about something,wonder,a state in which you want to learn more about something,UNCERTAIN,+0.0,EMO
+abandonment::the act of giving something up,abandonment,the act of giving something up,NONEMO,-2.0,
+admiration::the feeling aroused by something strange and surprising,admiration,the feeling aroused by something strange and surprising,EMO,+6.0,
+abomination::a person who is loathsome or disgusting,abomination,a person who is loathsome or disgusting,NONEMO,-3.0,
+agitation::the feeling of being agitated; not calm,agitation,the feeling of being agitated; not calm,EMO,+8.0,
+anticipation::an expectation,anticipation,an expectation,UNCERTAIN,+0.0,NONEMO
+ardent::characterized by intense emotion,ardent,characterized by intense emotion,EMO,+3.0,
+brooding::persistent morbid meditation on a problem,brooding,persistent morbid meditation on a problem,UNCERTAIN,+0.0,EMO
+brotherhood::an organization of employees formed to bargain with the employer,brotherhood,an organization of employees formed to bargain with the employer,NONEMO,-8.0,
+covetousness::reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins),covetousness,reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins),UNCERTAIN,+1.0,EMO
+detachment::the act of releasing from an attachment or connection,detachment,the act of releasing from an attachment or connection,NONEMO,-2.0,
+ecstatic::feeling great rapture or delight,ecstatic,feeling great rapture or delight,EMO,+4.0,
+fatigue::temporary loss of strength and energy resulting from hard physical or mental work,fatigue,temporary loss of strength and energy resulting from hard physical or mental work,UNCERTAIN,+0.0,EMO
+fondness::a positive feeling of liking,fondness,a positive feeling of liking,EMO,+7.0,
+fondness::a quality proceeding from feelings of affection or love,fondness,a quality proceeding from feelings of affection or love,EMO,+8.0,
+friskiness::lively high-spirited playfulness,friskiness,lively high-spirited playfulness,UNCERTAIN,+0.0,EMO
+humiliation::depriving one of self-esteem,humiliation,depriving one of self-esteem,EMO,+2.0,
+hysteria::state of violent mental agitation,hysteria,state of violent mental agitation,EMO,+2.0,
+interest::a sense of concern with and curiosity about someone or something,interest,a sense of concern with and curiosity about someone or something,EMO,+2.0,
+interest::the power of attracting or holding one's attention,interest,the power of attracting or holding one's attention,UNCERTAIN,+0.0,NONEMO
+jubilant::joyful and proud especially because of triumph or success,jubilant,joyful and proud especially because of triumph or success,EMO,+2.0,
+lugubrious::excessively mournful,lugubrious,excessively mournful,UNCERTAIN,+0.0,EMO
+mortification::strong feelings of embarrassment,mortification,strong feelings of embarrassment,EMO,+5.0,
+mortification::an instance in which you are caused to lose your prestige or self-respect,mortification,an instance in which you are caused to lose your prestige or self-respect,UNCERTAIN,+0.0,NONEMO
+queasy::feeling nausea; feeling about to vomit,queasy,feeling nausea; feeling about to vomit,EMO,+2.0,
+scare::a sudden attack of fear,scare,a sudden attack of fear,EMO,+2.0,
+affect::the conscious subjective aspect of feeling or emotion,affect,the conscious subjective aspect of feeling or emotion,EMO,+5.0,
+aloofness::indifference by personal withdrawal,aloofness,indifference by personal withdrawal,UNCERTAIN,+0.0,EMO
+awe::an overwhelming feeling of wonder or admiration,awe,an overwhelming feeling of wonder or admiration,EMO,+7.0,
+chill::a sudden numbing dread,chill,a sudden numbing dread,EMO,+2.0,
+confidence::a feeling of trust (in someone or something),confidence,a feeling of trust (in someone or something),EMO,+8.0,
+elation::an exhilarating psychological state of pride and optimism; an absence of depression,elation,an exhilarating psychological state of pride and optimism; an absence of depression,EMO,+2.0,
+fretfulness::an irritable petulant feeling,fretfulness,an irritable petulant feeling,EMO,+2.0,
+happiness::emotions experienced when in a state of well-being,happiness,emotions experienced when in a state of well-being,EMO,+5.0,
+frustration::an act of hindering someone's plans or efforts,frustration,an act of hindering someone's plans or efforts,UNCERTAIN,+0.0,NONEMO
+hatred::the emotion of intense dislike; a feeling of dislike so strong that it demands action,hatred,the emotion of intense dislike; a feeling of dislike so strong that it demands action,EMO,+13.0,
+longing::prolonged unfulfilled desire or need,longing,prolonged unfulfilled desire or need,UNCERTAIN,+1.0,EMO
+regret::sadness associated with some wrong done or some disappointment,regret,sadness associated with some wrong done or some disappointment,EMO,+2.0,
+ennui::a feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement,ennui,a feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement,EMO,+9.0,
+wonder::something that causes feelings of wonder,wonder,something that causes feelings of wonder,EMO,+3.0,
+wonder::the feeling aroused by something strange and surprising,wonder,the feeling aroused by something strange and surprising,EMO,+6.0,
+"lethargy::the quality or state of being lazy, sluggish, or indifferent",lethargy,"the quality or state of being lazy, sluggish, or indifferent",UNCERTAIN,+0.0,EMO
+adoration::a feeling of profound love and admiration,adoration,a feeling of profound love and admiration,EMO,+11.0,
+amazement::the feeling that accompanies something extremely surprising,amazement,the feeling that accompanies something extremely surprising,EMO,+5.0,
+amorousness::a feeling of love or fondness,amorousness,a feeling of love or fondness,EMO,+11.0,
+approval::a feeling of liking something or someone good,approval,a feeling of liking something or someone good,EMO,+10.0,
+arrogant::having or showing feelings of unwarranted importance out of overbearing pride,arrogant,having or showing feelings of unwarranted importance out of overbearing pride,EMO,+5.0,
+bereavement::state of sorrow over the death or departure of a loved one,bereavement,state of sorrow over the death or departure of a loved one,EMO,+2.0,
+blessedness::a state of supreme happiness,blessedness,a state of supreme happiness,EMO,+2.0,
+bitterness::a feeling of deep and bitter anger and ill-will,bitterness,a feeling of deep and bitter anger and ill-will,EMO,+10.0,
+bored::tired of the world,bored,tired of the world,UNCERTAIN,+0.0,EMO
+conceit::an elaborate poetic image or a far-fetched comparison of very dissimilar things,conceit,an elaborate poetic image or a far-fetched comparison of very dissimilar things,UNCERTAIN,+0.0,NONEMO
+contempt::a manner that is generally disrespectful and contemptuous,contempt,a manner that is generally disrespectful and contemptuous,EMO,+2.0,
+creeps::a feeling of fear and revulsion,creeps,a feeling of fear and revulsion,EMO,+12.0,
+cruelty::the quality of being cruel and causing tension or annoyance,cruelty,the quality of being cruel and causing tension or annoyance,EMO,+2.0,
+depression::sad feelings of gloom and inadequacy,depression,sad feelings of gloom and inadequacy,EMO,+5.0,
+disdain::a communication that indicates lack of respect by patronizing the recipient,disdain,a communication that indicates lack of respect by patronizing the recipient,UNCERTAIN,+0.0,NONEMO
+dislike::a feeling of aversion or antipathy,dislike,a feeling of aversion or antipathy,EMO,+10.0,
+dismay::fear resulting from the awareness of danger,dismay,fear resulting from the awareness of danger,EMO,+2.0,
+edginess::feelings of anxiety that make you tense and irritable,edginess,feelings of anxiety that make you tense and irritable,EMO,+7.0,
+enragement::a feeling of intense anger,enragement,a feeling of intense anger,EMO,+10.0,
+envy::a feeling of grudging admiration and desire to have something that is possessed by another,envy,a feeling of grudging admiration and desire to have something that is possessed by another,EMO,+11.0,
+excited::marked by uncontrolled excitement or emotion,excited,marked by uncontrolled excitement or emotion,EMO,+5.0,
+exultant::joyful and proud especially because of triumph or success,exultant,joyful and proud especially because of triumph or success,EMO,+2.0,
+fear::an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight),fear,an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight),EMO,+5.0,
+fervency::feelings of great warmth and intensity,fervency,feelings of great warmth and intensity,EMO,+5.0,
+fussiness::unnecessary elaborateness in details,fussiness,unnecessary elaborateness in details,UNCERTAIN,+0.0,NONEMO
+grief::something that causes great unhappiness,grief,something that causes great unhappiness,EMO,+2.0,
+horrid::grossly offensive to decency or morality; causing horror,horrid,grossly offensive to decency or morality; causing horror,EMO,+2.0,
+impatience::a restless desire for change and excitement,impatience,a restless desire for change and excitement,EMO,+5.0,
+protectiveness::the quality of providing protection,protectiveness,the quality of providing protection,UNCERTAIN,+0.0,NONEMO
+quiver::the act of vibrating,quiver,the act of vibrating,NONEMO,-5.0,
+rancor::a feeling of deep and bitter anger and ill-will,rancor,a feeling of deep and bitter anger and ill-will,EMO,+10.0,
+rapture::a state of elated bliss,rapture,a state of elated bliss,EMO,+5.0,
+regard::a feeling of friendship and esteem,regard,a feeling of friendship and esteem,EMO,+8.0,
+acceptance::the act of accepting with approval; favorable reception,acceptance,the act of accepting with approval; favorable reception,NONEMO,-2.0,
+amusement::a feeling of delight at being entertained,amusement,a feeling of delight at being entertained,EMO,+10.0,
+anguish::extreme mental distress,anguish,extreme mental distress,EMO,+4.0,
+anguish::extreme distress of body or mind,anguish,extreme distress of body or mind,EMO,+4.0,
+antipathy::the object of a feeling of intense aversion; something to be avoided,antipathy,the object of a feeling of intense aversion; something to be avoided,EMO,+10.0,
+boding::a feeling of evil to come,boding,a feeling of evil to come,EMO,+8.0,
+care::the work of providing treatment for or attending to someone or something,care,the work of providing treatment for or attending to someone or something,UNCERTAIN,+0.0,NONEMO
+care::judiciousness in avoiding harm or danger,care,judiciousness in avoiding harm or danger,UNCERTAIN,+0.0,NONEMO
+concern::something that interests you because it is important or affects you,concern,something that interests you because it is important or affects you,UNCERTAIN,+0.0,NONEMO
+cynicism::a cynical feeling of distrust,cynicism,a cynical feeling of distrust,EMO,+5.0,
+enlightenment::education that results in understanding and the spread of knowledge,enlightenment,education that results in understanding and the spread of knowledge,UNCERTAIN,+0.0,NONEMO
+enlightenment::the beatitude that transcends the cycle of reincarnation; characterized by the extinction of desire and suffering and individual consciousness,enlightenment,the beatitude that transcends the cycle of reincarnation; characterized by the extinction of desire and suffering and individual consciousness,UNCERTAIN,+1.0,NONEMO
+enthusiasm::a lively interest,enthusiasm,a lively interest,UNCERTAIN,+0.0,EMO
+hate::the emotion of intense dislike,hate,the emotion of intense dislike,EMO,+5.0,
+sullenness::a gloomy ill-tempered feeling,sullenness,a gloomy ill-tempered feeling,EMO,+4.0,
+timidity::fear of the unknown or unfamiliar or fear of making decisions,timidity,fear of the unknown or unfamiliar or fear of making decisions,EMO,+2.0,
+solicitude::a feeling of excessive concern,solicitude,a feeling of excessive concern,EMO,+8.0,
+sympathy::feeling of loyalty : tendency to favor or support,sympathy,feeling of loyalty : tendency to favor or support,EMO,+5.0,
+admiration::a favorable judgment,admiration,a favorable judgment,UNCERTAIN,+0.0,NONEMO
+affected::being excited or provoked to the expression of an emotion,affected,being excited or provoked to the expression of an emotion,EMO,+5.0,
+adoration::the act of admiring strongly,adoration,the act of admiring strongly,NONEMO,-2.0,
+alarming::frightening because of an awareness of danger,alarming,frightening because of an awareness of danger,UNCERTAIN,+0.0,EMO
+agitation::disturbance usually in protest,agitation,disturbance usually in protest,NONEMO,-3.0,
+ambition::a cherished desire,ambition,a cherished desire,UNCERTAIN,+1.0,EMO
+anger::a strong emotion; a feeling that is oriented toward some real or supposed grievance,anger,a strong emotion; a feeling that is oriented toward some real or supposed grievance,EMO,+8.0,
+aroused::emotionally aroused,aroused,emotionally aroused,EMO,+3.0,
+calm::steadiness of mind under stress,calm,steadiness of mind under stress,UNCERTAIN,+0.0,EMO
+complacence::the feeling you have when you are satisfied with yourself,complacence,the feeling you have when you are satisfied with yourself,EMO,+4.0,
+comfort::a state of being relaxed and feeling no pain,comfort,a state of being relaxed and feeling no pain,EMO,+2.0,
+contentment::happiness with one's situation in life,contentment,happiness with one's situation in life,EMO,+2.0,
+daze::the feeling of distress and disbelief that you have when something bad happens accidentally,daze,the feeling of distress and disbelief that you have when something bad happens accidentally,EMO,+9.0,
+delight::a feeling of extreme pleasure or satisfaction,delight,a feeling of extreme pleasure or satisfaction,EMO,+11.0,
+delight::something or someone that provides a source of happiness,delight,something or someone that provides a source of happiness,EMO,+2.0,
+desolate::providing no shelter or sustenance,desolate,providing no shelter or sustenance,NONEMO,-2.0,
+dismay::the feeling of despair in the face of obstacles,dismay,the feeling of despair in the face of obstacles,EMO,+7.0,
+ebullient::joyously unrestrained,ebullient,joyously unrestrained,UNCERTAIN,+0.0,EMO
+encouragement::the expression of approval and support,encouragement,the expression of approval and support,UNCERTAIN,+0.0,NONEMO
+expectation::anticipating with confidence of fulfillment,expectation,anticipating with confidence of fulfillment,EMO,+2.0,
+jealousy::a feeling of jealous envy (especially of a rival),jealousy,a feeling of jealous envy (especially of a rival),EMO,+10.0,
+loathing::hate coupled with disgust,loathing,hate coupled with disgust,EMO,+4.0,
+languor::a relaxed comfortable feeling,languor,a relaxed comfortable feeling,EMO,+2.0,
+nauseous::feeling nausea; feeling about to vomit,nauseous,feeling nausea; feeling about to vomit,EMO,+2.0,
+relish::vigorous and enthusiastic enjoyment,relish,vigorous and enthusiastic enjoyment,EMO,+2.0,
+restlessness::a feeling of agitation expressed in continual motion,restlessness,a feeling of agitation expressed in continual motion,EMO,+10.0,
+"satisfaction::the contentment one feels when one has fulfilled a desire, need, or expectation",satisfaction,"the contentment one feels when one has fulfilled a desire, need, or expectation",EMO,+4.0,
+acceptance::the mental attitude that something is believable and should be accepted as true,acceptance,the mental attitude that something is believable and should be accepted as true,UNCERTAIN,+0.0,EMO
+bloodlust::a desire for bloodshed,bloodlust,a desire for bloodshed,UNCERTAIN,+1.0,EMO
+chill::a sensation of cold that often marks the start of an infection and the development of a fever,chill,a sensation of cold that often marks the start of an infection and the development of a fever,UNCERTAIN,+0.0,NONEMO
+concern::something or someone that causes anxiety; a source of unhappiness,concern,something or someone that causes anxiety; a source of unhappiness,EMO,+4.0,
+repentance::remorse for your past conduct,repentance,remorse for your past conduct,EMO,+4.0,
+tranquility::a state of peace and quiet,tranquility,a state of peace and quiet,UNCERTAIN,+0.0,EMO
+self-anger::emotion,self-anger,emotion,EMO,+3.0,
+self-worth::the quality of being worthy of esteem or respect,self-worth,the quality of being worthy of esteem or respect,UNCERTAIN,+0.0,EMO
+agitation::a mental state of extreme emotional disturbance,agitation,a mental state of extreme emotional disturbance,EMO,+5.0,
+alienation::the feeling of being alienated from other people,alienation,the feeling of being alienated from other people,EMO,+5.0,
+ardent::characterized by strong enthusiasm,ardent,characterized by strong enthusiasm,EMO,+2.0,
+aroused::brought to a state of great tension,aroused,brought to a state of great tension,EMO,+2.0,
+blitheness::a feeling of spontaneous good spirits,blitheness,a feeling of spontaneous good spirits,EMO,+8.0,
+boredom::the feeling of being bored by something tedious,boredom,the feeling of being bored by something tedious,EMO,+7.0,
+brotherhood::the feeling that men should treat one another like brothers,brotherhood,the feeling that men should treat one another like brothers,EMO,+5.0,
+chagrined::feeling or caused to feel uneasy and self-conscious,chagrined,feeling or caused to feel uneasy and self-conscious,EMO,+7.0,
+carefreeness::the trait of being without worry or responsibility,carefreeness,the trait of being without worry or responsibility,EMO,+2.0,
+comfort::satisfaction or physical well-being provided by a person or thing,comfort,satisfaction or physical well-being provided by a person or thing,EMO,+2.0,
+depression::a mental state characterized by a pessimistic sense of inadequacy and a despondent lack of activity,depression,a mental state characterized by a pessimistic sense of inadequacy and a despondent lack of activity,EMO,+4.0,
+despair::the feeling that everything is wrong and nothing will turn out well,despair,the feeling that everything is wrong and nothing will turn out well,EMO,+5.0,
+disappointed::disappointingly unsuccessful,disappointed,disappointingly unsuccessful,UNCERTAIN,+0.0,NONEMO
+displeased::not pleased; experiencing or manifesting displeasure,displeased,not pleased; experiencing or manifesting displeasure,EMO,+2.0,
+distress::a state of adversity (danger or affliction or need),distress,a state of adversity (danger or affliction or need),UNCERTAIN,+0.0,NONEMO
+dolorous::showing sorrow,dolorous,showing sorrow,EMO,+2.0,
+envious::showing extreme cupidity; painfully desirous of another's advantages,envious,showing extreme cupidity; painfully desirous of another's advantages,UNCERTAIN,+0.0,EMO
+encouragement::the act of giving hope or support to someone,encouragement,the act of giving hope or support to someone,UNCERTAIN,+0.0,NONEMO
+expectation::belief about (or mental picture of) the future,expectation,belief about (or mental picture of) the future,UNCERTAIN,+0.0,NONEMO
+fascination::the capacity to attract intense interest,fascination,the capacity to attract intense interest,UNCERTAIN,+0.0,NONEMO
+fearfulness::the trait of being afraid,fearfulness,the trait of being afraid,UNCERTAIN,+0.0,EMO
+frisson::an almost pleasurable sensation of fright,frisson,an almost pleasurable sensation of fright,UNCERTAIN,+0.0,EMO
+gratitude::a feeling of thankfulness and appreciation,gratitude,a feeling of thankfulness and appreciation,EMO,+8.0,
+heartstrings::your deepest feelings of love and compassion,heartstrings,your deepest feelings of love and compassion,EMO,+6.0,
+hopefulness::full of hope,hopefulness,full of hope,EMO,+2.0,
+humiliation::state of disgrace or loss of self-respect,humiliation,state of disgrace or loss of self-respect,UNCERTAIN,+0.0,EMO
+impatience::a lack of patience; irritation with anything that causes delay,impatience,a lack of patience; irritation with anything that causes delay,EMO,+2.0,
+impatience::a dislike of anything that causes delay,impatience,a dislike of anything that causes delay,EMO,+2.0,
+infatuation::a foolish and usually extravagant passion or love or admiration,infatuation,a foolish and usually extravagant passion or love or admiration,EMO,+4.0,
+outrage::a feeling of righteous anger,outrage,a feeling of righteous anger,EMO,+10.0,
+remorseful::feeling or expressing pain or sorrow for sins or offenses,remorseful,feeling or expressing pain or sorrow for sins or offenses,EMO,+4.0,
+restlessness::a lack of patience; irritation with anything that causes delay,restlessness,a lack of patience; irritation with anything that causes delay,EMO,+2.0,
+reverence::an act showing respect (especially a bow or curtsy),reverence,an act showing respect (especially a bow or curtsy),UNCERTAIN,+0.0,NONEMO
+sanguinity::feeling sanguine; optimistically cheerful and confident,sanguinity,feeling sanguine; optimistically cheerful and confident,EMO,+4.0,
+abhorrence::hate coupled with disgust,abhorrence,hate coupled with disgust,EMO,+4.0,
+bashfulness::feeling embarrassed due to modesty,bashfulness,feeling embarrassed due to modesty,EMO,+4.0,
+enjoyment::the pleasure felt when having a good time,enjoyment,the pleasure felt when having a good time,UNCERTAIN,+1.0,EMO
+fright::an emotion experienced in anticipation of some specific pain or danger,fright,an emotion experienced in anticipation of some specific pain or danger,EMO,+5.0,
+frustration::the feeling that accompanies an experience of being thwarted in attaining your goals,frustration,the feeling that accompanies an experience of being thwarted in attaining your goals,EMO,+5.0,
+ruthlessness::mercilessness characterized by a lack of pity,ruthlessness,mercilessness characterized by a lack of pity,EMO,+2.0,
+nostalgia::a sentimental longing or wistful affection for the past,nostalgia,a sentimental longing or wistful affection for the past,EMO,+6.0,
+self-hatred::shame resulting from strong dislike of yourself or your actions,self-hatred,shame resulting from strong dislike of yourself or your actions,EMO,+4.0,
+turmoil::a violent disturbance,turmoil,a violent disturbance,UNCERTAIN,+0.0,NONEMO
+abasement::depriving one of self-esteem,abasement,depriving one of self-esteem,EMO,+2.0,
+admiration::a feeling of delighted approval and liking,admiration,a feeling of delighted approval and liking,EMO,+10.0,
+affective::characterized by emotion,affective,characterized by emotion,EMO,+6.0,
+affectionateness::a quality proceeding from feelings of affection or love,affectionateness,a quality proceeding from feelings of affection or love,EMO,+8.0,
+aggravation::unfriendly behavior that causes anger or resentment,aggravation,unfriendly behavior that causes anger or resentment,EMO,+4.0,
+apprehension::fearful expectation or anticipation,apprehension,fearful expectation or anticipation,UNCERTAIN,+0.0,EMO
+aspiration::a will to succeed,aspiration,a will to succeed,UNCERTAIN,+0.0,EMO
+bitterness::the taste experience when quinine or coffee is taken into the mouth,bitterness,the taste experience when quinine or coffee is taken into the mouth,UNCERTAIN,+0.0,NONEMO
+brooding::deeply or seriously thoughtful,brooding,deeply or seriously thoughtful,UNCERTAIN,+0.0,EMO
+charged::fraught with great emotion,charged,fraught with great emotion,EMO,+3.0,
+compassionate::showing or having compassion,compassionate,showing or having compassion,EMO,+2.0,
+confusion::a mistake that results from taking one thing to be another,confusion,a mistake that results from taking one thing to be another,UNCERTAIN,+0.0,NONEMO
+covetousness::extreme greed for material wealth,covetousness,extreme greed for material wealth,UNCERTAIN,+0.0,EMO
+dejectedness::a feeling of low spirits,dejectedness,a feeling of low spirits,EMO,+8.0,
+demonstrative::given to or marked by the open expression of emotion,demonstrative,given to or marked by the open expression of emotion,EMO,+3.0,
+discomfort::the state of being tense and feeling pain,discomfort,the state of being tense and feeling pain,EMO,+4.0,
+disinclination::a certain degree of unwillingness,disinclination,a certain degree of unwillingness,UNCERTAIN,+0.0,EMO
+disdain::lack of respect accompanied by a feeling of intense dislike,disdain,lack of respect accompanied by a feeling of intense dislike,EMO,+10.0,
+dislike::an inclination to withhold approval from some person or group,dislike,an inclination to withhold approval from some person or group,UNCERTAIN,+0.0,EMO
+displacement::to move something from its natural environment,displacement,to move something from its natural environment,UNCERTAIN,+0.0,NONEMO
+embarrassment::the shame you feel when your inadequacy or guilt is made public,embarrassment,the shame you feel when your inadequacy or guilt is made public,EMO,+2.0,
+exasperation::actions that cause great irritation (or even anger),exasperation,actions that cause great irritation (or even anger),EMO,+4.0,
+expectation::the feeling that something is about to happen,expectation,the feeling that something is about to happen,EMO,+5.0,
+feeling::the experiencing of affective and emotional states,feeling,the experiencing of affective and emotional states,EMO,+3.0,
+fret::agitation resulting from active worry,fret,agitation resulting from active worry,EMO,+4.0,
+grief::intense sorrow caused by loss of a loved one (especially by death),grief,intense sorrow caused by loss of a loved one (especially by death),EMO,+2.0,
+introspectiveness::thoughtfulness about your own situation and feelings,introspectiveness,thoughtfulness about your own situation and feelings,UNCERTAIN,+0.0,EMO
+keenness::a quick and penetrating intelligence,keenness,a quick and penetrating intelligence,UNCERTAIN,+0.0,NONEMO
+languor::a feeling of lack of interest or energy,languor,a feeling of lack of interest or energy,EMO,+8.0,
+melancholy::a feeling of thoughtful sadness,melancholy,a feeling of thoughtful sadness,EMO,+10.0,
+mournfulness::a state of gloomy sorrow,mournfulness,a state of gloomy sorrow,EMO,+4.0,
+penance::remorse for your past conduct,penance,remorse for your past conduct,EMO,+4.0,
+acceptance::a disposition to tolerate or accept people or situations,acceptance,a disposition to tolerate or accept people or situations,UNCERTAIN,+1.0,EMO
+appetite::a feeling of craving something,appetite,a feeling of craving something,EMO,+10.0,
+cheerfulness::a feeling of spontaneous good spirits,cheerfulness,a feeling of spontaneous good spirits,EMO,+8.0,
+concern::a feeling of sympathy for someone or something,concern,a feeling of sympathy for someone or something,EMO,+10.0,
+craving::an intense desire for some particular thing,craving,an intense desire for some particular thing,UNCERTAIN,+1.0,EMO
+insecurity::the anxiety you experience when you feel vulnerable and insecure,insecurity,the anxiety you experience when you feel vulnerable and insecure,EMO,+6.0,
+triumph::a feeling of great victory or achievement,triumph,a feeling of great victory or achievement,EMO,+8.0,
+self-disgust::shame resulting from strong dislike of yourself or your actions,self-disgust,shame resulting from strong dislike of yourself or your actions,EMO,+4.0,
+soulfulness::deep feeling or emotion,soulfulness,deep feeling or emotion,EMO,+5.0,
+yearning::prolonged unfulfilled desire,yearning,prolonged unfulfilled desire,UNCERTAIN,+1.0,EMO
+sympathy::a feeling or expression of sincere concern for someone who is experiencing something difficult or painful,sympathy,a feeling or expression of sincere concern for someone who is experiencing something difficult or painful,EMO,+2.0,
+"aghast::struck with fear, dread, or consternation",aghast,"struck with fear, dread, or consternation",EMO,+6.0,
+anticipation::anticipating with confidence of fulfillment,anticipation,anticipating with confidence of fulfillment,EMO,+2.0,
+appreciation::delicate discrimination (especially of aesthetic values),appreciation,delicate discrimination (especially of aesthetic values),UNCERTAIN,+0.0,NONEMO
+aspiration::a cherished desire,aspiration,a cherished desire,UNCERTAIN,+1.0,EMO
+compassion::the humane quality of understanding the suffering of others and wanting to do something about it,compassion,the humane quality of understanding the suffering of others and wanting to do something about it,UNCERTAIN,+0.0,EMO
+confusion::disorder resulting from a failure to behave predictably,confusion,disorder resulting from a failure to behave predictably,UNCERTAIN,+0.0,NONEMO
+contrition::sorrow for sin arising from fear of damnation,contrition,sorrow for sin arising from fear of damnation,EMO,+4.0,
+curiosity::a state in which you want to learn more about something,curiosity,a state in which you want to learn more about something,UNCERTAIN,+0.0,EMO
+covetousness::an envious eagerness to possess something,covetousness,an envious eagerness to possess something,EMO,+2.0,
+euphoria::a feeling of great (usually exaggerated) elation,euphoria,a feeling of great (usually exaggerated) elation,EMO,+10.0,
+exuberance::joyful enthusiasm,exuberance,joyful enthusiasm,EMO,+2.0,
+fascination::the state of being intensely interested (as by awe or terror),fascination,the state of being intensely interested (as by awe or terror),EMO,+2.0,
+infatuation::temporary love of an adolescent,infatuation,temporary love of an adolescent,UNCERTAIN,+1.0,EMO
+inflammation::arousal to violent emotion,inflammation,arousal to violent emotion,EMO,+3.0,
+joylessness::a feeling of dismal cheerlessness,joylessness,a feeling of dismal cheerlessness,EMO,+8.0,
+nostalgic::unhappy about being away and longing for familiar things or persons,nostalgic,unhappy about being away and longing for familiar things or persons,EMO,+4.0,
+peevish::easily irritated or annoyed,peevish,easily irritated or annoyed,EMO,+2.0,
+penitence::remorse for your past conduct,penitence,remorse for your past conduct,EMO,+4.0,
+pity::a feeling of sympathy and sorrow for the misfortunes of others,pity,a feeling of sympathy and sorrow for the misfortunes of others,EMO,+12.0,
+reverence::a reverent mental attitude,reverence,a reverent mental attitude,EMO,+2.0,
+sanguine::confidently optimistic and cheerful,sanguine,confidently optimistic and cheerful,EMO,+2.0,
+ruthlessness::feelings of extreme heartlessness,ruthlessness,feelings of extreme heartlessness,EMO,+3.0,
+self-contempt::self-contempt,self-contempt,self-contempt,UNCERTAIN,+0.0,NONEMO
+tumult::a loud confused noise especially one caused by a large mass of people,tumult,a loud confused noise especially one caused by a large mass of people,UNCERTAIN,+0.0,NONEMO
+sympathy::the action of entering into or sharing the feelings or interests of another,sympathy,the action of entering into or sharing the feelings or interests of another,UNCERTAIN,+0.0,EMO
+alienation::separation resulting from hostility,alienation,separation resulting from hostility,EMO,+2.0,
+appreciation::a favorable judgment,appreciation,a favorable judgment,UNCERTAIN,+0.0,NONEMO
+bitterness::the property of having a harsh unpleasant taste,bitterness,the property of having a harsh unpleasant taste,NONEMO,-2.0,
+consolation::the comfort you feel when consoled in times of disappointment,consolation,the comfort you feel when consoled in times of disappointment,UNCERTAIN,+0.0,EMO
+confusion::an act causing a disorderly combination of elements with identities lost and distinctions blended,confusion,an act causing a disorderly combination of elements with identities lost and distinctions blended,NONEMO,-2.0,
+detestation::hate coupled with disgust,detestation,hate coupled with disgust,EMO,+4.0,
+devastation::the feeling of being confounded or overwhelmed,devastation,the feeling of being confounded or overwhelmed,EMO,+5.0,
+disappointment::a feeling of dissatisfaction that results when your expectations are not realized,disappointment,a feeling of dissatisfaction that results when your expectations are not realized,EMO,+10.0,
+discomfort::an uncomfortable feeling of mental painfulness or distress,discomfort,an uncomfortable feeling of mental painfulness or distress,EMO,+9.0,
+embarrassment::some event that causes someone to be embarrassed,embarrassment,some event that causes someone to be embarrassed,EMO,+2.0,
+fondness::a predisposition to like something,fondness,a predisposition to like something,UNCERTAIN,+0.0,EMO
+helplessness::the state of needing help from something,helplessness,the state of needing help from something,UNCERTAIN,+0.0,EMO
+high-spirited::joyously unrestrained,high-spirited,joyously unrestrained,UNCERTAIN,+0.0,EMO
+inflammation::the state of being emotionally aroused and worked up,inflammation,the state of being emotionally aroused and worked up,EMO,+6.0,
+joviality::feeling jolly and jovial and full of good humor,joviality,feeling jolly and jovial and full of good humor,EMO,+4.0,
+melancholia::extreme depression characterized by tearful sadness and irrational fears,melancholia,extreme depression characterized by tearful sadness and irrational fears,EMO,+4.0,
+queasy::causing or fraught with or showing anxiety,queasy,causing or fraught with or showing anxiety,EMO,+2.0,
+ravishment::a feeling of delight at being filled with wonder and enchantment,ravishment,a feeling of delight at being filled with wonder and enchantment,EMO,+10.0,
+relaxation::a feeling of refreshing tranquility and an absence of tension or worry,relaxation,a feeling of refreshing tranquility and an absence of tension or worry,EMO,+13.0,
+abashment::feeling embarrassed due to modesty,abashment,feeling embarrassed due to modesty,EMO,+4.0,
+angst::an acute but unspecific feeling of anxiety; usually reserved for philosophical anxiety about the world or about personal freedom,angst,an acute but unspecific feeling of anxiety; usually reserved for philosophical anxiety about the world or about personal freedom,EMO,+7.0,
+belonging::happiness felt in a secure relationship,belonging,happiness felt in a secure relationship,EMO,+2.0,
+consternation::fear resulting from the awareness of danger,consternation,fear resulting from the awareness of danger,EMO,+2.0,
+disgust::strong feelings of dislike,disgust,strong feelings of dislike,EMO,+5.0,
+"appeasement::to make concessions to (someone, such as an aggressor or a critic) often at the sacrifice of principles",appeasement,"to make concessions to (someone, such as an aggressor or a critic) often at the sacrifice of principles",UNCERTAIN,+0.0,NONEMO
+aggravation::an exasperated feeling of annoyance,aggravation,an exasperated feeling of annoyance,EMO,+7.0,
+appreciation::understanding of the nature or meaning or quality or magnitude of something,appreciation,understanding of the nature or meaning or quality or magnitude of something,UNCERTAIN,+0.0,NONEMO
+attachment::a feeling of affection for a person or an institution,attachment,a feeling of affection for a person or an institution,EMO,+12.0,
+concerned::feeling or showing worry or solicitude,concerned,feeling or showing worry or solicitude,EMO,+7.0,
+detachment::avoiding emotional involvement,detachment,avoiding emotional involvement,EMO,+3.0,
+embarrassment::the state of being embarrassed (usually by some financial inadequacy),embarrassment,the state of being embarrassed (usually by some financial inadequacy),EMO,+2.0,
+helplessness::powerlessness revealed by an inability to act,helplessness,powerlessness revealed by an inability to act,UNCERTAIN,+0.0,EMO
+helplessness::a feeling of being unable to manage,helplessness,a feeling of being unable to manage,EMO,+8.0,
+indignation::a feeling of righteous anger,indignation,a feeling of righteous anger,EMO,+10.0,
+loneliness::sadness resulting from being forsaken or abandoned,loneliness,sadness resulting from being forsaken or abandoned,EMO,+2.0,
+pathetic::inspiring mixed contempt and pity,pathetic,inspiring mixed contempt and pity,EMO,+2.0,
+revulsion::intense aversion,revulsion,intense aversion,EMO,+2.0,
+ruth::a feeling of sympathy and sorrow for the misfortunes of others,ruth,a feeling of sympathy and sorrow for the misfortunes of others,EMO,+12.0,
+aloofness::a disposition to be distant and unsympathetic in manner,aloofness,a disposition to be distant and unsympathetic in manner,UNCERTAIN,+1.0,EMO
+dreaminess::a relaxed comfortable feeling,dreaminess,a relaxed comfortable feeling,EMO,+2.0,
+reminiscence::recall to mind of a long-forgotten experience or fact,reminiscence,recall to mind of a long-forgotten experience or fact,UNCERTAIN,+0.0,NONEMO
+apprehension::painful expectation,apprehension,painful expectation,UNCERTAIN,+0.0,EMO
+demoralisation::depression resulting from an undermining of your morale,demoralisation,depression resulting from an undermining of your morale,EMO,+2.0,
+disappointment::an act (or failure to act) that disappoints someone,disappointment,an act (or failure to act) that disappoints someone,NONEMO,-2.0,
+discouragement::the feeling of despair in the face of obstacles,discouragement,the feeling of despair in the face of obstacles,EMO,+7.0,
+displacement::act of taking the place of another especially using underhanded tactics,displacement,act of taking the place of another especially using underhanded tactics,UNCERTAIN,-1.0,NONEMO
+displacement::the act of uniform movement,displacement,the act of uniform movement,NONEMO,-4.0,
+distressed::generalized feeling of distress,distressed,generalized feeling of distress,EMO,+9.0,
+exhilaration::the feeling of lively and cheerful joy,exhilaration,the feeling of lively and cheerful joy,EMO,+9.0,
+forgiveness::compassionate feelings that support a willingness to forgive,forgiveness,compassionate feelings that support a willingness to forgive,EMO,+5.0,
+gloat::malicious satisfaction,gloat,malicious satisfaction,EMO,+2.0,
+maliciousness::feeling a need to see others suffer,maliciousness,feeling a need to see others suffer,EMO,+2.0,
+protectiveness::a feeling of protective affection,protectiveness,a feeling of protective affection,EMO,+12.0,
+repulsion::intense aversion,repulsion,intense aversion,EMO,+2.0,
+cheerlessness::a feeling of dreary or pessimistic sadness,cheerlessness,a feeling of dreary or pessimistic sadness,EMO,+12.0,
+commiseration::a feeling of sympathy and sorrow for the misfortunes of others,commiseration,a feeling of sympathy and sorrow for the misfortunes of others,EMO,+12.0,
+infuriation::a feeling of intense anger,infuriation,a feeling of intense anger,EMO,+10.0,
+insouciance::the cheerful feeling you have when nothing is troubling you,insouciance,the cheerful feeling you have when nothing is troubling you,EMO,+4.0,
+unhappiness::the feeling of not being happy; mild sadness,unhappiness,the feeling of not being happy; mild sadness,EMO,+7.0,
+ineptitude::social interactions,ineptitude,social interactions,UNCERTAIN,+0.0,NONEMO
+astonishment::the feeling that accompanies something extremely surprising,astonishment,the feeling that accompanies something extremely surprising,EMO,+5.0,
+compassion::a deep awareness of and sympathy for another's suffering,compassion,a deep awareness of and sympathy for another's suffering,EMO,+2.0,
+diffidence::lack of self-confidence,diffidence,lack of self-confidence,EMO,+2.0,
+disconnectedness::state of being disconnected,disconnectedness,state of being disconnected,UNCERTAIN,+0.0,NONEMO
+exasperation::an exasperated feeling of annoyance,exasperation,an exasperated feeling of annoyance,EMO,+7.0,
+hankering::a yearning for something or to do something,hankering,a yearning for something or to do something,EMO,+4.0,
+loneliness::the state of being alone in solitary isolation,loneliness,the state of being alone in solitary isolation,UNCERTAIN,+0.0,EMO
+repugnance::intense aversion,repugnance,intense aversion,EMO,+2.0,
+reverence::a feeling of profound respect for someone or something,reverence,a feeling of profound respect for someone or something,EMO,+8.0,
+cheerfulness::the quality of being cheerful and dispelling gloom,cheerfulness,the quality of being cheerful and dispelling gloom,EMO,+2.0,
+self-torment::self-imposed distress,self-torment,self-imposed distress,EMO,+4.0,
+affectionateness::a positive feeling of liking,affectionateness,a positive feeling of liking,EMO,+7.0,
+ambivalence::mixed feelings or emotions,ambivalence,mixed feelings or emotions,EMO,+3.0,
+entrancement::a feeling of delight at being filled with wonder and enchantment,entrancement,a feeling of delight at being filled with wonder and enchantment,EMO,+10.0,
+fulfillment::a feeling of satisfaction at having achieved your desires,fulfillment,a feeling of satisfaction at having achieved your desires,EMO,+10.0,
+fulfillment::the act of consummating something (a desire or promise etc),fulfillment,the act of consummating something (a desire or promise etc),UNCERTAIN,-1.0,NONEMO
+weltschmerz::sadness on thinking about the evils of the world,weltschmerz,sadness on thinking about the evils of the world,EMO,+2.0,
+trepidation::a feeling of alarm or dread,trepidation,a feeling of alarm or dread,EMO,+12.0,
+self-satisfaction::the feeling you have when you are satisfied with yourself,self-satisfaction,the feeling you have when you are satisfied with yourself,EMO,+4.0,
+apathy::an absence of emotion or enthusiasm,apathy,an absence of emotion or enthusiasm,EMO,+5.0,
+carefreeness::the cheerful feeling you have when nothing is troubling you,carefreeness,the cheerful feeling you have when nothing is troubling you,EMO,+4.0,
+disdainful::expressing extreme contempt,disdainful,expressing extreme contempt,EMO,+2.0,
+contemptuous::expressing extreme contempt,contemptuous,expressing extreme contempt,EMO,+2.0,
+scare::sudden mass fear and anxiety over anticipated events,scare,sudden mass fear and anxiety over anticipated events,EMO,+4.0,
+captivation::the state of being intensely interested (as by awe or terror),captivation,the state of being intensely interested (as by awe or terror),EMO,+2.0,
+dissatisfaction::the feeling of being displeased and discontent,dissatisfaction,the feeling of being displeased and discontent,EMO,+7.0,
+melodramatic::characteristic of acting or a stage performance; often affected,melodramatic,characteristic of acting or a stage performance; often affected,NONEMO,-2.0,
+captivation::a feeling of great liking for something wonderful and unusual,captivation,a feeling of great liking for something wonderful and unusual,EMO,+10.0,
+discontentment::a longing for something better than the present situation,discontentment,a longing for something better than the present situation,EMO,+2.0,
+forlornness::sadness resulting from being forsaken or abandoned,forlornness,sadness resulting from being forsaken or abandoned,EMO,+2.0,
+enthrallment::a feeling of great liking for something wonderful and unusual,enthrallment,a feeling of great liking for something wonderful and unusual,EMO,+10.0,
+joie de vivre::joy to live,joie de vivre,joy to live,EMO,+2.0,
+disconsolateness::feeling downcast and disheartened and hopeless,disconsolateness,feeling downcast and disheartened and hopeless,EMO,+4.0,
+melodramatic::having the excitement and emotional appeal of melodrama,melodramatic,having the excitement and emotional appeal of melodrama,EMO,+5.0,
+self-consciousness::State of conscious of one's own acts or states as belonging to or originating in oneself,self-consciousness,State of conscious of one's own acts or states as belonging to or originating in oneself,UNCERTAIN,+0.0,NONEMO
+"ineptitude::Not suitable to the time, place, or occasion : inappropriate often to an absurd degree",ineptitude,"Not suitable to the time, place, or occasion : inappropriate often to an absurd degree",UNCERTAIN,-1.0,NONEMO
+schadenfreude::delight in another person's misfortune,schadenfreude,delight in another person's misfortune,EMO,+2.0,
+acceptance::the state of being acceptable and accepted,acceptance,the state of being acceptable and accepted,UNCERTAIN,,
+anxious::causing or fraught with or showing anxiety,anxious,causing or fraught with or showing anxiety,UNCERTAIN,,

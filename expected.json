@@ -1,0 +1,1030 @@
+{
+ "_about": "Every number the paper states, with the tolerance within which a rerun should reproduce it. Bootstrap and permutation steps are seeded, so most should be exact; a non-zero tolerance is a statement that we expect drift there, from BLAS ordering, library versions, or the rounding of the printed figure. Values given to two decimals in the paper carry tol 0.005 (half the last printed digit). verify.py checks each of these and prints pass or fail. 'at_most' marks a bound the paper states rather than a value.",
+ "_paper": "A construct-defined steering basis for affect in language models",
+ "_protocol": "All steering measurements are taken at each model's own coherence edge c*, measured by E1. One earlier run appears, the common-magnitude comparison (c = 0.08 for every model), checked from its stored matrices.",
+ "basis_geometry": {
+  "_source": "single-layer vectors + probes; no generations needed",
+  "_model": "google_gemma-3-1b-it at layer 17",
+  "gram_mean_abs_offdiag": {
+   "value": 0.187,
+   "tol": 0.005
+  },
+  "gram_max_abs_offdiag": {
+   "value": 0.467,
+   "tol": 0.005
+  },
+  "gram_condition": {
+   "value": 5.489,
+   "tol": 0.1
+  },
+  "iso_cost_min": {
+   "value": 1.028,
+   "tol": 0.01
+  },
+  "iso_cost_max": {
+   "value": 1.309,
+   "tol": 0.01
+  },
+  "n_axes": {
+   "value": 7,
+   "tol": 0
+  },
+  "_labels": "frozen_emotionality_labels.csv, the corrected file. An earlier draft used H_emotionality_labels.csv and reported 0.177 / 0.418 / 6.01, which those labels reproduce exactly.",
+  "gram_intensity_antagonism": {
+   "value": 0.47,
+   "tol": 0.005
+  },
+  "gram_valence_antagonism": {
+   "value": -0.39,
+   "tol": 0.005
+  },
+  "gram_heat_antagonism": {
+   "value": 0.34,
+   "tol": 0.005
+  },
+  "leak_max": {
+   "value": 0.795,
+   "tol": 0.005
+  },
+  "request_cost_min": {
+   "value": 0.68,
+   "tol": 0.005
+  },
+  "request_cost_max": {
+   "value": 1.6,
+   "tol": 0.005
+  },
+  "gram_schmidt": {
+   "valence": {
+    "value": 1.0,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 1.0,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": 0.989,
+    "tol": 0.005
+   },
+   "intensity": {
+    "value": 0.86,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": 0.784,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": 0.988,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": 0.889,
+    "tol": 0.005
+   }
+  },
+  "alt_seven_mean_abs_offdiag": {
+   "value": 0.293,
+   "tol": 0.005
+  },
+  "alt_seven_condition": {
+   "value": 13.2,
+   "tol": 0.05
+  },
+  "alt_seven_drive_desire": {
+   "value": 0.61,
+   "tol": 0.005
+  },
+  "_sections": "3.4 (alternative seven), 4 and 5.2 (request cost), 5.1 (Gram entries), 5.2 (leak, iso-cost), 5.3 (Gram-Schmidt, in the order AXES lists the axes)"
+ },
+ "axis_validation": {
+  "_source": "single-layer vectors + held-out vectors + probes + predictions",
+  "lowo_accuracy_min": {
+   "value": 0.828,
+   "tol": 0.01
+  },
+  "lowo_accuracy_max": {
+   "value": 1.0,
+   "tol": 0.01
+  },
+  "lowo_null_min": {
+   "value": 0.73,
+   "tol": 0.02
+  },
+  "lowo_null_max": {
+   "value": 0.867,
+   "tol": 0.02
+  },
+  "axes_clearing_lowo": {
+   "value": 7,
+   "tol": 0
+  },
+  "unseen_word_auc_min": {
+   "value": 0.891,
+   "tol": 0.01
+  },
+  "axes_clearing_unseen_all_models": {
+   "value": 7,
+   "tol": 0
+  },
+  "random_vector_null_p95": {
+   "value": 0.246,
+   "tol": 0.02
+  },
+  "word_contrast_null_p95": {
+   "value": 0.851,
+   "tol": 0.02
+  },
+  "_null_note": "Both nulls are cross-model rank correlations of scores over a shared vocabulary, not cosines within one model. The distinction is easy to miss from the paper's wording and the two give very different values.",
+  "_labels": "Recomputed on frozen_emotionality_labels.csv. The stored probe_validation.json was produced on the superseded file and reported 0.936 / 0.998 for accuracy and 0.779 / 0.856 for the null; the corrected labels change which senses enter the mean and shift both minima.",
+  "_unseen_note": "0.967 in an earlier draft, from probe_validation.json on the superseded labels. All seven axes still clear their null in all nine models; only the weakest AUC moved.",
+  "axes_lowo_perfect": {
+   "value": 5,
+   "tol": 0
+  },
+  "lowo_body_mind_accuracy": {
+   "value": 0.828,
+   "tol": 0.005
+  },
+  "lowo_body_mind_null": {
+   "value": 0.781,
+   "tol": 0.005
+  }
+ },
+ "shared_words": {
+  "_source": "port of the shared-word block of derive_paper_numbers.py; section 5.1",
+  "n_shared": {
+   "value": 12,
+   "tol": 0
+  },
+  "mean_without": {
+   "value": 0.14,
+   "tol": 0.005
+  },
+  "condition_without": {
+   "value": 4.78,
+   "tol": 0.01
+  },
+  "null_mean": {
+   "value": 0.209,
+   "tol": 0.005
+  },
+  "null_p025": {
+   "value": 0.181,
+   "tol": 0.005
+  },
+  "null_p975": {
+   "value": 0.241,
+   "tol": 0.005
+  },
+  "null_draws_as_low": {
+   "value": 0,
+   "tol": 0
+  },
+  "intensity_antagonism_full": {
+   "value": 0.467,
+   "tol": 0.005
+  },
+  "intensity_antagonism_without": {
+   "value": 0.305,
+   "tol": 0.005
+  },
+  "_not_in_paper": "condition_without, the null's 95% interval and the 0/500 count are no longer printed; kept because the paper's 'thinner lists are not the cause' rests on them."
+ },
+ "coherence_edges": {
+  "_source": "edges.json; requires a GPU to recompute, verified for consistency only",
+  "c_star": {
+   "google_gemma-3-1b-it": 0.06,
+   "google_gemma-3-1b-pt": 0.12,
+   "Qwen_Qwen2.5-1.5B": 0.32,
+   "microsoft_phi-2": 0.4,
+   "state-spaces_mamba-2.8b-hf": 0.65,
+   "EleutherAI_pythia-6.9b": 0.25,
+   "mistralai_Mistral-7B-v0.3": 0.4,
+   "meta-llama_Meta-Llama-3-8B": 0.32,
+   "unsloth_gemma-2-9b-bnb-4bit": 0.5
+  },
+  "spread_ratio": {
+   "value": 10.8,
+   "tol": 0.5
+  },
+  "ladders_disagreeing": {
+   "value": 0,
+   "tol": 0
+  }
+ },
+ "interface": {
+  "_source": "data/atlas_g31bit.json.gz, read with interface/index.html's own arithmetic (metric G^-1, float32 accumulation, stable sort); section 4",
+  "tol": 0.005,
+  "atlas_gram_vs_vectors_max_diff": {
+   "value": 0.0,
+   "tol": 0.0001
+  },
+  "requests": [
+   {
+    "levels": {
+     "valence": 0.72,
+     "intensity": 0.62,
+     "body_mind": -0.86
+    },
+    "raw": {
+     "cursor": {
+      "valence": 0.42,
+      "heat": 0.23,
+      "arousal": 0.18
+     },
+     "tokens": [
+      "unlocked",
+      "unveiling",
+      "exploded",
+      "birthplace",
+      "unfolded",
+      "flamboyant",
+      "painted",
+      "explode",
+      "Transplantation",
+      "cadeau"
+     ],
+     "ekman": [
+      [
+       "joy",
+       0.41
+      ],
+      [
+       "surprise",
+       0.23
+      ]
+     ]
+    },
+    "dual": {
+     "cost": 1.21,
+     "tokens": [
+      "unveiling",
+      "harnessed",
+      "mingled",
+      "flamboyant",
+      "painted",
+      "cadeau",
+      "unlocked",
+      "Transplantation",
+      "birthplace",
+      "untouched"
+     ],
+     "ekman": [
+      [
+       "joy",
+       0.46
+      ],
+      [
+       "surprise",
+       0.2
+      ]
+     ]
+    }
+   },
+   {
+    "levels": {
+     "valence": 0.54,
+     "heat": -0.2,
+     "antagonism_peace": 0.6
+    },
+    "raw": {
+     "cursor": {
+      "heat": 0.02
+     },
+     "tokens": [
+      "anigans",
+      "thrilled",
+      "ambush",
+      "showdown",
+      "disguised",
+      "polymerization",
+      "counter",
+      "greedy",
+      "fruition",
+      "smirk"
+     ],
+     "ekman": [
+      [
+       "disgust",
+       0.68
+      ],
+      [
+       "joy",
+       0.37
+      ]
+     ]
+    },
+    "dual": {
+     "tokens": [
+      "smirk",
+      "anigans",
+      "ambush",
+      "lounging",
+      "disguised",
+      "polymerization",
+      "counter",
+      "pleasure",
+      "glee",
+      "sneaky"
+     ],
+     "ekman": [
+      [
+       "disgust",
+       0.57
+      ],
+      [
+       "joy",
+       0.25
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "linear_baseline": {
+  "_source": "port of linear_baseline.py. THREE-dial, per-trial statistics of a linear model through the harness and the readout.",
+  "encoder_gram_mean": {
+   "value": 0.16,
+   "tol": 0.005
+  },
+  "encoder_gram_max": {
+   "value": 0.448,
+   "tol": 0.005
+  },
+  "pred_symmetric_change": {
+   "value": -0.35,
+   "tol": 0.005
+  },
+  "pred_antisymmetric_change": {
+   "value": -0.66,
+   "tol": 0.005
+  },
+  "pred_separability_gain": {
+   "value": 1.28,
+   "tol": 0.005
+  },
+  "pred_antisymmetric_share": {
+   "value": 0.03,
+   "tol": 0.005
+  },
+  "_not_in_paper": "only the 3% is printed (section 7.3); the rest are the handoff's figures."
+ },
+ "geometric_prediction": {
+  "_source": "single-dial prediction from geometry alone: pooled raw = G A, dual = A (rows = dial); section 7.3",
+  "primary_pred_gain": {
+   "value": 1.95,
+   "tol": 0.005
+  },
+  "mean_pred_gain": {
+   "value": 2.03,
+   "tol": 0.005
+  },
+  "mean_anti_share_geometric": {
+   "value": 0.06,
+   "tol": 0.005
+  },
+  "mean_anti_share_geometric_three": {
+   "value": 0.02,
+   "tol": 0.005
+  },
+  "_asymmetry": "Section 7.3 compares the observed single-dial pooled share (30%) with mean_anti_share_geometric (6%), computed the same way. The three-dial pair is 31% observed against 2%."
+ },
+ "single_axis_steering": {
+  "_source": "generations, raw and control arms",
+  "cells_positive": {
+   "value": 63,
+   "tol": 0
+  },
+  "cells_total": {
+   "value": 63,
+   "tol": 0
+  },
+  "model_level_mean_gain": {
+   "value": 0.405,
+   "tol": 0.02
+  },
+  "model_level_t": {
+   "value": 13.7,
+   "tol": 0.05
+  },
+  "gain_by_axis": {
+   "intensity": {
+    "value": 0.539,
+    "tol": 0.06
+   },
+   "valence": {
+    "value": 0.493,
+    "tol": 0.06
+   },
+   "antagonism_peace": {
+    "value": 0.437,
+    "tol": 0.06
+   },
+   "heat": {
+    "value": 0.389,
+    "tol": 0.06
+   },
+   "body_mind": {
+    "value": 0.336,
+    "tol": 0.06
+   },
+   "arousal": {
+    "value": 0.363,
+    "tol": 0.06
+   },
+   "social_inner_outer": {
+    "value": 0.276,
+    "tol": 0.06
+   }
+  },
+  "controls_negative": {
+   "value": 6,
+   "tol": 1
+  },
+  "cross_alignment_diagonal_max": {
+   "value": 7,
+   "tol": 0
+  },
+  "cross_alignment_mean_diagonal": {
+   "value": 0.478,
+   "tol": 0.02
+  },
+  "cross_alignment_mean_offdiagonal": {
+   "value": 0.059,
+   "tol": 0.02
+  },
+  "_statistic": "PER-MODEL throughout: a gain is computed within each model and then averaged. An earlier draft printed POOLED per-axis gains beside a per-model mean; those do not reconcile, since pooling embeds every model's generations together before differencing and yields a larger displacement. The pooled values were intensity 0.753, valence 0.622, body_mind 0.521, arousal 0.520, heat 0.460, antagonism_peace 0.459, social_inner_outer 0.395, averaging 0.533.",
+  "_tolerance_note": "Per-axis gains keep tol 0.06 from the first package (library drift across machines). The uncapped recompute reproduces the printed gains to three decimals.",
+  "_cross_alignment_note": "Diagonal maximal in 7 of 7 rows, and stable: a bootstrap over 1200 resamples of the generations puts every row at 100% dominance, with margins from +0.158 (antagonism_peace) to +0.363 (valence). An earlier verify run reported 5 of 7 because its embedding cache keyed on only the first three texts and their count, which collide across axes by construction; two axes received a third axis's embeddings. The bootstrap, which has no cache, found the error.",
+  "_cache_note": "heat, arousal, the model-level mean and the controls count were all contaminated by the embedding-cache collision, not only the cross-alignment matrix. The collision gave heat and arousal valence's embeddings wherever their high-level lists began with the same cell. Values recorded during that period were heat 0.313, arousal 0.294, mean 0.384 and 7 negative controls; all four are superseded. The five unaffected axes moved by at most 0.002, which is what confirms the cause.",
+  "model_level_p": {
+   "value": 7.7e-07,
+   "rtol": 0.05
+  },
+  "model_level_wilcoxon_p": {
+   "value": 0.002,
+   "tol": 0.0005
+  },
+  "control_by_axis": {
+   "intensity": {
+    "value": -0.07,
+    "tol": 0.005
+   },
+   "valence": {
+    "value": -0.013,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": -0.016,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 0.047,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": -0.018,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": -0.007,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": -0.031,
+    "tol": 0.005
+   }
+  },
+  "cross_alignment_entry": {
+   "valence->intensity": {
+    "value": -0.15,
+    "tol": 0.005
+   },
+   "valence->antagonism_peace": {
+    "value": -0.16,
+    "tol": 0.005
+   },
+   "valence->social_inner_outer": {
+    "value": -0.23,
+    "tol": 0.005
+   },
+   "antagonism_peace->valence": {
+    "value": -0.3,
+    "tol": 0.005
+   },
+   "intensity->valence": {
+    "value": -0.19,
+    "tol": 0.005
+   }
+  },
+  "bootstrap_min_row_wins": {
+   "value": 1200,
+   "tol": 0
+  },
+  "bootstrap_min_margin": {
+   "value": 0.158,
+   "tol": 0.005
+  },
+  "bootstrap_max_margin": {
+   "value": 0.363,
+   "tol": 0.005
+  },
+  "_control_tol": "Uncapped values, confirmed 27 Sep; the draft had printed the capped run's column.",
+  "_t_note": "13.77 was stale; the uncapped recompute gives 13.709, which the paper prints as 13.7."
+ },
+ "robustness": {
+  "_source": "gains per axis (mean over models) under raw, dedup and coherent text, uncapped; section 6.2 table, section 9",
+  "raw_vs_dedup_max_delta": {
+   "at_most": 0.002
+  },
+  "dedup_vs_coherent_max_delta": {
+   "value": 0.034,
+   "tol": 0.001
+  },
+  "coherent_axes_positive": {
+   "value": 7,
+   "tol": 0
+  },
+  "_history": "0.001 and 0.021 came from the capped run; uncapped gives 0.0018 and 0.034."
+ },
+ "simultaneous_control": {
+  "_source": "generations, raw arm; transfer matrix per triple",
+  "diag_is_max_mean": {
+   "value": 0.857,
+   "tol": 0.015
+  },
+  "diag_off_ratio_mean": {
+   "value": 2.971,
+   "tol": 0.05
+  },
+  "models_above_chance": {
+   "value": 9,
+   "tol": 0
+  },
+  "chance_rate": {
+   "value": 0.333,
+   "tol": 0.0
+  },
+  "diag_is_max_by_model": {
+   "unsloth_gemma-2-9b-bnb-4bit": {
+    "value": 0.99,
+    "tol": 0.02
+   },
+   "meta-llama_Meta-Llama-3-8B": {
+    "value": 0.967,
+    "tol": 0.02
+   },
+   "google_gemma-3-1b-it": {
+    "value": 0.89,
+    "tol": 0.02
+   },
+   "google_gemma-3-1b-pt": {
+    "value": 0.886,
+    "tol": 0.02
+   },
+   "EleutherAI_pythia-6.9b": {
+    "value": 0.881,
+    "tol": 0.02
+   },
+   "state-spaces_mamba-2.8b-hf": {
+    "value": 0.867,
+    "tol": 0.02
+   },
+   "mistralai_Mistral-7B-v0.3": {
+    "value": 0.862,
+    "tol": 0.02
+   },
+   "Qwen_Qwen2.5-1.5B": {
+    "value": 0.714,
+    "tol": 0.02
+   },
+   "microsoft_phi-2": {
+    "value": 0.667,
+    "tol": 0.02
+   }
+  },
+  "diag_is_max_pooled": {
+   "value": 0.915,
+   "tol": 0.005
+  },
+  "diag_is_max_by_axis": {
+   "valence": {
+    "value": 0.944,
+    "tol": 0.005
+   },
+   "intensity": {
+    "value": 0.922,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": 0.915,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": 0.881,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": 0.804,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 0.781,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": 0.752,
+    "tol": 0.005
+   }
+  },
+  "_rows": "ROWS = CONSTRUCT in every figure of this block (the fit is transposed): 'diagonal is the row maximum' asks whether a construct is moved most by its own dial.",
+  "_pooled": "diag_is_max_pooled is transfer_matrix.py's figure: both repetitions pooled, but also raw text and unit-normalised positions. verify prints pooling alone beside it.",
+  "_common_magnitude": "The 54% at one common magnitude (sections 3.5, 7.2) has no shipped data and is not checked."
+ },
+ "dual_basis": {
+  "_about": "The negative result. It is verified with the same care as the positive ones; a package that only reproduces favourable numbers is not a verification package.",
+  "_source": "generations, raw and dual arms",
+  "symmetric_offdiag_change": {
+   "value": -0.236,
+   "tol": 0.02
+  },
+  "diagonal_change": {
+   "value": -0.203,
+   "tol": 0.02
+  },
+  "antisymmetric_offdiag_change": {
+   "value": 0.007,
+   "tol": 0.02
+  },
+  "models_symmetric_reduced": {
+   "value": 9,
+   "tol": 0
+  },
+  "models_diagonal_reduced": {
+   "value": 9,
+   "tol": 0
+  },
+  "ratio_change": {
+   "value": 0.924,
+   "tol": 0.02
+  },
+  "models_ratio_improved": {
+   "value": 1,
+   "tol": 1
+  },
+  "wilcoxon_p_ratio_improved": {
+   "value": 0.994,
+   "tol": 0.02
+  },
+  "_per_trial": "Per-trial 3x3 matrices, noise-dominated; the canonical separability figures are in 'superposition'."
+ },
+ "pair_crosstalk": {
+  "_source": "section 7.4 table: mean |off-diagonal| per pair over the per-repetition matrices (dedup text, row-normalised by the largest entry, both directions, n = 180). Confirmed 27 Sep; the draft's values came from raw text and differed by up to 0.005.",
+  "pairs": {
+   "antagonism_peace|body_mind": {
+    "value": 0.242,
+    "tol": 0.005
+   },
+   "body_mind|valence": {
+    "value": 0.274,
+    "tol": 0.005
+   },
+   "heat|valence": {
+    "value": 0.279,
+    "tol": 0.005
+   },
+   "intensity|social_inner_outer": {
+    "value": 0.284,
+    "tol": 0.005
+   },
+   "body_mind|heat": {
+    "value": 0.284,
+    "tol": 0.005
+   },
+   "body_mind|intensity": {
+    "value": 0.293,
+    "tol": 0.005
+   },
+   "arousal|intensity": {
+    "value": 0.425,
+    "tol": 0.005
+   },
+   "arousal|valence": {
+    "value": 0.433,
+    "tol": 0.005
+   },
+   "heat|intensity": {
+    "value": 0.457,
+    "tol": 0.005
+   },
+   "antagonism_peace|intensity": {
+    "value": 0.466,
+    "tol": 0.005
+   },
+   "social_inner_outer|valence": {
+    "value": 0.512,
+    "tol": 0.005
+   },
+   "antagonism_peace|heat": {
+    "value": 0.598,
+    "tol": 0.005
+   }
+  }
+ },
+ "magnitude": {
+  "_source": "port of transfer_matrix.py (raw text, both repetitions pooled), mean over nine models; section 6.3",
+  "_denominator": "corpus_fraction divides by the range of the triple's own generations along the probe, not of the corpus words.",
+  "pole_fraction": {
+   "intensity": {
+    "value": 0.25,
+    "tol": 0.005
+   },
+   "valence": {
+    "value": 0.155,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": 0.138,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": 0.13,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 0.114,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": 0.115,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": 0.083,
+    "tol": 0.005
+   }
+  },
+  "corpus_fraction": {
+   "intensity": {
+    "value": 0.253,
+    "tol": 0.005
+   },
+   "valence": {
+    "value": 0.212,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": 0.205,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": 0.184,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 0.175,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": 0.17,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": 0.144,
+    "tol": 0.005
+   }
+  },
+  "cohens_d": {
+   "intensity": {
+    "value": 1.12,
+    "tol": 0.005
+   },
+   "valence": {
+    "value": 1.06,
+    "tol": 0.005
+   },
+   "antagonism_peace": {
+    "value": 1.01,
+    "tol": 0.005
+   },
+   "body_mind": {
+    "value": 0.88,
+    "tol": 0.005
+   },
+   "heat": {
+    "value": 0.89,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": 0.85,
+    "tol": 0.005
+   },
+   "social_inner_outer": {
+    "value": 0.71,
+    "tol": 0.005
+   }
+  },
+  "pole_corpus_rho": {
+   "value": 0.96,
+   "tol": 0.005
+  },
+  "cohens_d_min": {
+   "value": 0.71,
+   "tol": 0.005
+  },
+  "cohens_d_max": {
+   "value": 1.12,
+   "tol": 0.005
+  },
+  "axes_d_above_1": {
+   "value": 3,
+   "tol": 0
+  }
+ },
+ "spread": {
+  "_source": "RECONSTRUCTION of the matched-pair analysis behind steering_examples_cstar.md (script not in the package); Appendix A, section 9",
+  "pairs": {
+   "valence": {
+    "value": 1080,
+    "tol": 0
+   },
+   "heat": {
+    "value": 1080,
+    "tol": 0
+   },
+   "arousal": {
+    "value": 1080,
+    "tol": 0
+   },
+   "intensity": {
+    "value": 1080,
+    "tol": 0
+   },
+   "antagonism_peace": {
+    "value": 1080,
+    "tol": 0
+   },
+   "body_mind": {
+    "value": 1080,
+    "tol": 0
+   },
+   "social_inner_outer": {
+    "value": 1080,
+    "tol": 0
+   }
+  },
+  "median_min": {
+   "value": 0.075,
+   "tol": 0.005
+  },
+  "median_max": {
+   "value": 0.219,
+   "tol": 0.005
+  },
+  "medians_positive": {
+   "value": 7,
+   "tol": 0
+  },
+  "min": {
+   "heat": {
+    "value": -0.109,
+    "tol": 0.005
+   },
+   "arousal": {
+    "value": -0.291,
+    "tol": 0.005
+   }
+  },
+  "axes_with_negative_pairs": {
+   "value": 7,
+   "tol": 0
+  },
+  "gemma2_antagonism_max": {
+   "value": 0.529,
+   "tol": 0.005
+  },
+  "share_below_5pct": {
+   "value": 0.21,
+   "tol": 0.02
+  },
+  "_share_note": "21% of matched pairs move less than 5% of the pole distance; 9.5% of triple-axis cases (fig6_spread.png). Section 9's wording is the author's decision; this row follows the matched-pair figure Appendix A describes."
+ },
+ "superposition": {
+  "_source": "port of superposition_test.py plus make_figures.fig7's pooled statistics. ROWS = DIAL. Section 7.3.",
+  "agreement_mean": {
+   "value": 0.76,
+   "tol": 0.005
+  },
+  "ceiling_mean": {
+   "value": 0.72,
+   "tol": 0.005
+  },
+  "gain_single_mean": {
+   "value": 1.3,
+   "tol": 0.005
+  },
+  "gain_obs_mean": {
+   "value": 1.05,
+   "tol": 0.005
+  },
+  "gain_pred_mean": {
+   "value": 1.06,
+   "tol": 0.005
+  },
+  "gain_single_models_improved": {
+   "value": 8,
+   "tol": 0
+  },
+  "gain_obs_models_improved": {
+   "value": 7,
+   "tol": 0
+  },
+  "gain_single_wilcoxon_p": {
+   "value": 0.01,
+   "tol": 0.001
+  },
+  "gain_obs_wilcoxon_p": {
+   "value": 0.13,
+   "tol": 0.005
+  },
+  "pred_obs_r_across_models": {
+   "value": 0.74,
+   "tol": 0.005
+  },
+  "anti_single_mean": {
+   "value": 0.29,
+   "tol": 0.005
+  },
+  "anti_single_min": {
+   "value": 0.21,
+   "tol": 0.005
+  },
+  "anti_single_max": {
+   "value": 0.48,
+   "tol": 0.005
+  },
+  "anti_three_mean": {
+   "value": 0.31,
+   "tol": 0.005
+  },
+  "primary_gain_single": {
+   "value": 1.38,
+   "tol": 0.005
+  },
+  "_wilcoxon": "One-sided (improvement). Two-sided the single-dial p is 0.020 and the three-dial 0.25; the paper's 0.01 and 0.13 are the one-sided values.",
+  "_ceiling": "0.7247 rounds to 0.72; an earlier draft printed 0.73.",
+  "trials_stem_mismatch": {
+   "value": 0,
+   "tol": 0
+  },
+  "_guards": "Every single-dial trial must sit on its three-dial trial's stem, and every single-dial run must be at its model's c*; both are checked before any statistic.",
+  "_history": "Before 27 Sep the Gemma-3-1B-pt single-dial folder also held an old Gemma-3-1B-it run, which superposition_test.py merged into Gemma-pt (x1.29, 1.05, 0.73, 30%). Clean: x1.30, 1.06, 0.74, 29%."
+ },
+ "second_encoder": {
+  "_source": "bge-large-en-v1.5, --full only; section 6.2 table",
+  "model_level_mean_gain": {
+   "value": 0.507,
+   "tol": 0.005
+  },
+  "model_level_t": {
+   "value": 14.1,
+   "tol": 0.05
+  },
+  "cells_positive": {
+   "value": 63,
+   "tol": 0
+  },
+  "sign_agreement": {
+   "value": 63,
+   "tol": 0
+  },
+  "cross_alignment_diagonal_max": {
+   "value": 7,
+   "tol": 0
+  },
+  "ordering_rho": {
+   "value": 0.79,
+   "tol": 0.005
+  },
+  "ordering_p_exact": {
+   "value": 0.048,
+   "tol": 0.001
+  },
+  "_p_note": "rho = 0.786 (sum d^2 = 12, n = 7, no ties); exact two-sided p over all 5,040 rankings, counting rankings at least as extreme INCLUDING rho = 0.786 itself, is 0.048."
+ },
+ "_canonical": "Values are those produced by verify.py in this package, which is the released and auditable implementation. The paper quotes these; where an earlier draft differed, the draft was computed from a superseded label file or mixed two statistics, and was corrected to match.",
+ "_removed": "cells_ci_separated (61) and condition_agreement_max_delta (0.032): the paper no longer prints either; the second came from the capped run and is replaced by robustness.dedup_vs_coherent_max_delta.",
+ "common_magnitude": {
+  "_about": "Archived run at c = 0.08 for every model, before the coherence-edge protocol. Ships as fitted matrices only (data/common_magnitude_transfer.json, formerly transfer_raw_new.json).",
+  "diag_dominant_mean": {
+   "value": 0.54,
+   "tol": 0.002
+  },
+  "n_models": {
+   "value": 9,
+   "tol": 0
+  }
+ }
+}

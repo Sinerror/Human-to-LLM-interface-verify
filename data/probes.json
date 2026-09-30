@@ -1,0 +1,419 @@
+{
+ "valence": {
+  "pos": [
+   "joy",
+   "delight",
+   "happiness",
+   "bliss",
+   "elation",
+   "cheerfulness",
+   "contentment",
+   "gladness",
+   "jubilation",
+   "pleasure"
+  ],
+  "neg": [
+   "misery",
+   "grief",
+   "sorrow",
+   "despair",
+   "anguish",
+   "sadness",
+   "unhappiness",
+   "woe",
+   "melancholy",
+   "dejection"
+  ],
+  "used": true
+ },
+ "drive": {
+  "pos": [
+   "ambition",
+   "zeal",
+   "ardor",
+   "eagerness",
+   "determination",
+   "craving",
+   "hunger",
+   "lust",
+   "aggression",
+   "impatience"
+  ],
+  "neg": [
+   "serenity",
+   "calmness",
+   "tranquility",
+   "peace",
+   "contentment",
+   "relaxation",
+   "languor",
+   "satisfaction",
+   "ease",
+   "placidity"
+  ],
+  "used": false,
+  "excluded_because": "usable axis; excluded to keep the basis well conditioned (drive-desire cos 0.585)"
+ },
+ "arousal": {
+  "pos": [
+   "excitement",
+   "agitation",
+   "frenzy",
+   "hysteria",
+   "panic",
+   "thrill",
+   "exhilaration",
+   "rage",
+   "ecstasy",
+   "alarm"
+  ],
+  "neg": [
+   "calmness",
+   "boredom",
+   "serenity",
+   "languor",
+   "apathy",
+   "drowsiness",
+   "placidity",
+   "dullness",
+   "listlessness",
+   "tranquility"
+  ],
+  "used": true
+ },
+ "intensity": {
+  "pos": [
+   "rage",
+   "terror",
+   "ecstasy",
+   "anguish",
+   "fury",
+   "bloodlust",
+   "despair",
+   "euphoria",
+   "horror",
+   "passion"
+  ],
+  "neg": [
+   "annoyance",
+   "unease",
+   "contentment",
+   "gladness",
+   "concern",
+   "displeasure",
+   "fondness",
+   "irritation",
+   "satisfaction",
+   "calm"
+  ],
+  "used": true
+ },
+ "heat": {
+  "pos": [
+   "rage",
+   "lust",
+   "fury",
+   "passion",
+   "anger",
+   "wrath"
+  ],
+  "neg": [
+   "fear",
+   "fondness",
+   "dread",
+   "affection",
+   "anxiety",
+   "apprehension"
+  ],
+  "used": true
+ },
+ "security_alarm": {
+  "pos": [
+   "trust",
+   "security",
+   "confidence",
+   "safety",
+   "comfort",
+   "assurance",
+   "closeness",
+   "loyalty"
+  ],
+  "neg": [
+   "alarm",
+   "dread",
+   "trepidation",
+   "apprehension",
+   "wariness",
+   "suspicion",
+   "insecurity",
+   "foreboding"
+  ],
+  "used": false,
+  "excluded_because": "usable axis; excluded to keep the seven-axis basis at condition 6.01"
+ },
+ "ego_altruism": {
+  "pos": [
+   "compassion",
+   "pity",
+   "sympathy",
+   "mercy",
+   "kindness",
+   "tenderness",
+   "generosity",
+   "empathy"
+  ],
+  "neg": [
+   "conceit",
+   "arrogance",
+   "selfishness",
+   "vanity",
+   "pride",
+   "greed",
+   "envy",
+   "smugness"
+  ],
+  "used": false,
+  "excluded_because": "fewer than four corpus words on one pole"
+ },
+ "power": {
+  "pos": [
+   "triumph",
+   "pride",
+   "confidence",
+   "dominance",
+   "superiority",
+   "boldness",
+   "defiance",
+   "courage"
+  ],
+  "neg": [
+   "helplessness",
+   "meekness",
+   "timidity",
+   "submission",
+   "weakness",
+   "humiliation",
+   "shyness",
+   "inferiority"
+  ],
+  "used": false,
+  "excluded_because": "fewer than four corpus words on one pole"
+ },
+ "body_feeling": {
+  "pos": [
+   "sadness",
+   "sorrow",
+   "grief",
+   "worry",
+   "regret",
+   "longing"
+  ],
+  "neg": [
+   "nausea",
+   "hunger",
+   "drowsiness",
+   "dizziness",
+   "chill",
+   "exhaustion"
+  ],
+  "used": false,
+  "excluded_because": "fewer than four corpus words on one pole"
+ },
+ "desire": {
+  "pos": [
+   "desire",
+   "craving",
+   "hankering",
+   "longing",
+   "pining",
+   "appetite",
+   "lust",
+   "bloodlust"
+  ],
+  "neg": [
+   "satisfaction",
+   "fulfillment",
+   "contentment",
+   "comfort",
+   "felicity",
+   "complacence",
+   "relief",
+   "consolation"
+  ],
+  "used": false,
+  "excluded_because": "usable axis; excluded for the same reason as drive"
+ },
+ "desire_greed_social": {
+  "pos": [
+   "covetousness",
+   "greedy",
+   "envy",
+   "jealousy",
+   "conceit",
+   "bloodlust"
+  ],
+  "neg": [
+   "belonging",
+   "intimacy",
+   "closeness",
+   "attachment",
+   "affection",
+   "fondness",
+   "agape"
+  ],
+  "used": false,
+  "excluded_because": "not carried through the full validation"
+ },
+ "social_inner_outer": {
+  "pos": [
+   "loneliness",
+   "introspectiveness",
+   "detachment",
+   "aloofness",
+   "lonely",
+   "abandonment"
+  ],
+  "neg": [
+   "belonging",
+   "closeness",
+   "intimacy",
+   "attachment",
+   "brotherhood",
+   "agape"
+  ],
+  "used": true
+ },
+ "social_person_group": {
+  "pos": [
+   "pride",
+   "loneliness",
+   "humbleness",
+   "introspectiveness",
+   "conceit",
+   "aloofness"
+  ],
+  "neg": [
+   "belonging",
+   "closeness",
+   "intimacy",
+   "agape",
+   "brotherhood",
+   "affection"
+  ],
+  "used": false,
+  "excluded_because": "not carried through the full validation"
+ },
+ "body_mind": {
+  "pos": [
+   "nauseous",
+   "numb",
+   "fatigue",
+   "chill",
+   "qualm",
+   "queasy",
+   "aroused",
+   "relaxation"
+  ],
+  "neg": [
+   "introspectiveness",
+   "brooding",
+   "confusion",
+   "conscience",
+   "melancholy",
+   "consternation",
+   "curiosity",
+   "fascination"
+  ],
+  "used": true
+ },
+ "passive_active": {
+  "pos": [
+   "languor",
+   "bloodless",
+   "fatigue",
+   "relaxation",
+   "numb",
+   "ease"
+  ],
+  "neg": [
+   "relish",
+   "keenness",
+   "playfulness",
+   "aggression",
+   "impatience",
+   "ardor",
+   "exuberance",
+   "enthusiasm"
+  ],
+  "used": false,
+  "excluded_because": "not carried through the full validation"
+ },
+ "antagonism_peace": {
+  "pos": [
+   "antagonism",
+   "aggression",
+   "animosity",
+   "enmity",
+   "rancor",
+   "resentment",
+   "hatred",
+   "ire"
+  ],
+  "neg": [
+   "peace",
+   "affection",
+   "fondness",
+   "esteem",
+   "respect",
+   "regard",
+   "confidence",
+   "protectiveness"
+  ],
+  "used": true
+ },
+ "emotion_simple_complex": {
+  "pos": [
+   "joy",
+   "anger",
+   "fear",
+   "love",
+   "hate",
+   "disgust",
+   "amazement"
+  ],
+  "neg": [
+   "guilt",
+   "embarrassment",
+   "pride",
+   "envy",
+   "jealousy",
+   "humiliation",
+   "contrition",
+   "melancholy"
+  ],
+  "used": false,
+  "excluded_because": "not an emotional property"
+ },
+ "emotion_simple_abstract": {
+  "pos": [
+   "chill",
+   "discomfort",
+   "nauseous",
+   "numb",
+   "fatigue",
+   "qualm",
+   "queasy",
+   "aroused"
+  ],
+  "neg": [
+   "melancholy",
+   "despair",
+   "desolation",
+   "forlornness",
+   "penitence",
+   "introspectiveness"
+  ],
+  "used": false,
+  "excluded_because": "not an emotional property"
+ }
+}

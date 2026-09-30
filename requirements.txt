@@ -1,0 +1,14 @@
+# Pinned. verify.py is deterministic given these; other versions may drift
+# within the tolerances stated in expected.json, and beyond them for the
+# encoder, which is the one component whose output is not seeded.
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.1
+sentence-transformers==3.0.1
+torch==2.3.1
+transformers==4.42.4
+
+# torch is required only because sentence-transformers imports it. No GPU is
+# used and no model is loaded beyond the sentence encoder. The CPU wheel is
+# enough and is much smaller:
+#   pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
