@@ -1,6 +1,6 @@
 {
  "_about": "Every number the paper states, with the tolerance within which a rerun should reproduce it. Bootstrap and permutation steps are seeded, so most should be exact; a non-zero tolerance is a statement that we expect drift there, from BLAS ordering, library versions, or the rounding of the printed figure. Values given to two decimals in the paper carry tol 0.005 (half the last printed digit). verify.py checks each of these and prints pass or fail. 'at_most' marks a bound the paper states rather than a value.",
- "_paper": "A construct-defined steering basis for affect in language models",
+ "_paper": "From Emotion Words to Steering Dials: A Prototype Interface and Its Measured Limits",
  "_protocol": "All steering measurements are taken at each model's own coherence edge c*, measured by E1. One earlier run appears, the common-magnitude comparison (c = 0.08 for every model), checked from its stored matrices.",
  "basis_geometry": {
   "_source": "single-layer vectors + probes; no generations needed",
