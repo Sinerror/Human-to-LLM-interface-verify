@@ -580,6 +580,8 @@ def check_validation(rep, probes, labels, layers):
                                   r["side"].strip().lower()))
     aucs, clears, total, skipped = [], 0, 0, []
     for model, layer in sorted(layers.items()):
+        if excluded(model):
+            continue
         hv, mv = held_path(model), vec_path(model)
         if hv is None or not os.path.exists(mv):
             skipped.append(model)
@@ -643,6 +645,8 @@ def check_commonmag(rep):
     d = json.load(open(p, encoding="utf-8"))
     rates = []
     for model, v in d.items():
+        if excluded(model.replace("_raw", "")):
+            continue
         a = b = 0
         for t in v["per_triple"]:
             M = np.array(t["M"], float)
@@ -1035,6 +1039,15 @@ def degenerate(text):
     return bool(looped or collapsed)
 
 
+EXCLUDE = set()   # bare model names left out of every generation-based analysis
+
+
+def excluded(model):
+    """True if `model` (bare name or hub slug) is excluded by --exclude-model."""
+    return any(model == x or model.endswith("_" + x) or x.endswith("_" + model)
+               or model.endswith("/" + x) for x in EXCLUDE)
+
+
 def load_generations(folder):
     """(model, arm, trial_id, triple) -> {levels-sign tuple: [raw texts]}.
 
@@ -1057,6 +1070,8 @@ def load_generations(folder):
                 break
         else:
             model, arm = base, "raw"
+        if excluded(model):
+            continue
         opener = gzip.open if path.endswith(".gz") else open
         for line in opener(path, "rt", encoding="utf-8"):
             r = json.loads(line)
@@ -1807,6 +1822,12 @@ def main():
     ap.add_argument("--cache", default=None,
                     help="folder for an embedding cache; reruns skip encoding")
     ap.add_argument("--list", action="store_true")
+    ap.add_argument("--exclude-model", nargs="*", default=[],
+                    help="bare model names to leave out of every generation-based "
+                         "analysis, e.g. gemma-2-9b-bnb-4bit; use with --expected")
+    ap.add_argument("--expected", default=None,
+                    help="an alternative expectations file, e.g. "
+                         "expected_without_gemma2.json for the robustness run")
     ap.add_argument("--dump", default=None,
                     help="write the recomputed per-model values to this JSON")
     a = ap.parse_args()
@@ -1815,7 +1836,12 @@ def main():
         print("  ".join(SECTIONS) + "   |  --full adds: " + "  ".join(FULL_ONLY))
         return
 
-    exp = json.load(open(os.path.join(HERE, "expected.json"), encoding="utf-8"))
+    EXCLUDE.update(a.exclude_model)
+    exp_path = a.expected or os.path.join(HERE, "expected.json")
+    exp = json.load(open(exp_path, encoding="utf-8"))
+    if EXCLUDE:
+        print(f"  EXCLUDING from every generation-based analysis: {sorted(EXCLUDE)}")
+        print(f"  expectations: {os.path.basename(exp_path)}")
     rep = Report(exp)
     probes = json.load(open(os.path.join(DATA, "probes.json"), encoding="utf-8"))
     labels = load_labels(os.path.join(DATA, "labels.csv"))
